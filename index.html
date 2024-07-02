@@ -49,29 +49,32 @@
       <nav class="navbar navbar-standard navbar-expand-lg fixed-top navbar-light navbar-theme">
         <div class="container justify-content-center">
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarStandard">
-            
+          <div class="collapse navbar-collapse" id="navbarStandard">
+            <a class="navbar-brand" href="#top">
+              <img src="assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
+              <img src="assets/img/icons/consulti_logoWhite.svg" height="50"/>
+            </a>
             <ul class="navbar-nav">
               <!-- <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownHome" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownHome">
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
                 </div>
               </li> -->
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownPages">
                   <div class="card navbar-card-pages shadow-none">
                     <div class="card-body scrollbar perfect-scrollbar max-h-dropdown">
                       <div class="row">
                         <div class="col-6 col-md-auto">
                           <div class="nav flex-column">
-                            <a class="nav-link py-1 text-700 font-weight-medium">Administração de Servidores</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Administração de Redes</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Segurança da Informação</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Backups em Nuvem</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">WiFi Corporativo e Eventos</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Controle de Navegação da Internet</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Fibra Ótica e Rádio Digital</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium">Consultoria em Telefonia Fixa e Móvel</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admserver" data-fancyscroll="data-fancyscroll">Administração de Servidores</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admnet">Administração de Redes</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#seginfo">Segurança da Informação</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cldbckp">Backups em Nuvem</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#corpwifi">WiFi Corporativo e Eventos</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cntrlwebnav">Controle de Navegação da Internet</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#optdgt">Fibra Ótica e Rádio Digital</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#telconsul">Consultoria em Telefonia Fixa e Móvel</a>
                           </div>
                         </div>
                       </div>
@@ -180,10 +183,7 @@
                 </div>
               </li>
             </ul>
-            <a class="navbar-brand" href="#top">
-              <img src="assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
-              <img src="assets/img/icons/consulti_logoWhite.svg" height="50"/>
-            </a>
+            
             <!-- <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" href="../index.html"><span class="fas fa-chart-pie d-none d-lg-inline-block" data-toggle="tooltip" data-placement="bottom" title="Dashboard"></span><span class="d-lg-none">Dashboard</span></a></li>
               <li class="nav-item"><a class="nav-link" href="../home/feed.html"><span class="fas fa-list-alt d-none d-lg-inline-block" data-toggle="tooltip" data-placement="bottom" title="Feed"></span><span class="d-lg-none">Feed</span></a></li>
@@ -292,7 +292,7 @@
       <!-- <section> begin ============================-->
       <section class="py-0 overflow-hidden" id="banner">
 
-        <div class="bg-holder overlay" style="background-image:url(../assets/img/generic/bg-2.jpg);background-position: center bottom;">
+        <div class="bg-holder overlay" style="background-image:url(../assets/img/generic/5.jpg);background-position: center bottom;">
         </div>
         <!--/.bg-holder-->
 
@@ -300,8 +300,8 @@
           <div class="row justify-content-center align-items-center pt-8 pt-lg-10 pb-lg-9 pb-xl-0">
             <div class="col-md-11 col-lg-8 col-xl-4 pb-7 pb-xl-9 text-center text-xl-left">
               <a class="btn btn-outline-info mb-4 fs--1 border-2x rounded-pill" href="#!"><span class="mr-2" role="img" aria-label="Hands">🤝</span>Seja um cliente</a>
-              <h1 class="text-white font-weight-light">É <span class="typed-text font-weight-bold" data-typed-text='["simples","fácil","rápido"]'></span><br />abrir chamado para a ConsulTI</h1>
-              <p class="lead text-white opacity-75">A seguir, te mostraremos o caminho para ser atendido por nossa equipe.</p>
+              <h1 class="text-white font-weight-light">A ConsulTI oferece soluções em <span class="typed-text font-weight-bold" data-typed-text='["suporte","software","redes"]'></span><br /></h1>
+              <p class="lead text-white opacity-75">Entre em contato conosco e seja mais um cliente parceiro</p>
             </div>                                  
             <div class="col-xl-7 offset-xl-1 align-self-end"><a class="img-landing-banner" href="index.html"><img class="img-fluid" src="assets/img/generic/baner.png" alt="" /></a></div>
           </div>
@@ -346,113 +346,130 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section>
+      <section id="services">
 
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8 col-xl-7 col-xxl-6">
-              <h1 class="fs-2 fs-sm-4 fs-md-5">Por onde posso gerar um chamado?</h1>
-              <p class="lead">Para registrar um ticket, você pode escolher entre o "Portal do Cliente" e o "Formulário de Suporte Técnico" através do seu navegador, ou também, através da aplicação "Suporte ConsulTI" instalada em sua máquina<br> Veja como:</p>
+              <h1 class="fs-2 fs-sm-4 fs-md-5">Nossos Serviços</h1>
+              <p class="lead">Descubra como a ConsulTI pode transformar sua infraestrutura de TI com soluções inovadoras e personalizadas.</p>
             </div>
           </div>
 
-          <!-- Através da WebPage -->
-          <div class="row align-items-center justify-content-center mt-8">
+          <!-- Administração de Servidores -->
+          <div class="row align-items-center justify-content-center mt-8" id="admserver">
             <div class="col-md col-lg-7 col-xl-4 pl-lg-6">
-              <video 
-                class="img-fluid px-6 px-md-0"
-                controls 
-                disablepictureinpicture
-                src="assets/video/aberturatickets_portal_cliente.mp4"
-                poster="assets/img/generic/videothumb.png"
-                style="border-radius: 1rem; box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);"
-                >
-              </video>
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/serverimg.svg" style="width: 20rem;" alt="Adminsitração de Servidores" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
-              <h5 class="text-danger"><span class="fa-solid fa-globe mr-2"></span>WEB</h5>
-              <h3>Portal do Cliente</h3>
-              <p>Aqui, você pode fazer login no portal, com seu email e senha. E gerar um ticket seguindo todos os passos. Veja o vídeo ao lado.</p>
-              <!-- <p>Aqui, você pode optar por fazer login no portal, com seu email e senha, ou até mesmo gerar um ticket preenchendo todo o formulário. Veja o vídeo ao lado.</p> -->
-              <a 
+              <h5 class="text-danger"><span class="fa-solid fa-server mr-2"></span>ADMINISTRAÇÃO DE SERVIDORES</h5>
+              <h3>Gerenciamento completo de servidores</h3>
+              <p>Garantimos desempenho, segurança e disponibilidade para sua infraestrutura de servidores.</p>
+              <!-- <a 
                 class="btn btn-outline-danger border-2x rounded-pill btn-lg fs-0 py-2" 
                 href="https://suporte.consulti.net.br/" 
                 target="_blank"
-              >Acessar o portal<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a>
+              >Acessar o portal<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a> -->
             </div>
           </div>
           <!-- ==== -->
 
-          <!-- Através do Formulário -->
-          <div class="row align-items-center justify-content-center mt-7">
+          <!-- Administração de Redes -->
+          <div class="row align-items-center justify-content-center mt-7" id="admnet">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <video 
-                class="img-fluid px-6 px-md-0"
-                controls 
-                disablepictureinpicture
-                src="assets/video/aberturatickets_formulario.mp4"
-                poster="assets/img/generic/videothumb.png"
-                style="border-radius: 1rem; box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);"
-                >
-              </video>
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/networkimg.svg" style="width: 20rem;" alt="Administração de Redes" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
-              <h5 class="text-info"> <span class="fa-solid fa-file-lines mr-2"></span>FORMULÁRIO</h5>
-              <h3>Formulário de Suporte Técnico</h3>
-              <p>Na mesma tela de login do Portal do Cliente, você tem a opção de abrir um chamado, sem necessitar do login, preenchendo o Formulário de Suporte Técnico. Assista ao exemplo</p>
-              <!-- <p>Nossa equipe fará a instalação do cliente local em todas as estações de trabalho de nossos clientes. Por ele, você também consegue nos acionar. Veja no vídeo ao lado.</p> -->
-              <a 
+              <h5 class="text-info"> <span class="fa-solid fa-sitemap mr-2"></span>ADMINISTRAÇÃO DE REDES</h5>
+              <h3>Implementação e mauntenção de redes</h3>
+              <p>Oferecemos redes eficientes e seguras para empresas de todos os tamanhos.</p>
+              <!-- <a 
                 class="btn btn-outline-info border-2x rounded-pill btn-lg fs-0 py-2" 
                 href="https://suporte.consulti.net.br/" 
                 target="_blank"
-              >Acessar o portal<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a>
+              >Acessar o portal<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a> -->
             </div>
           </div>
           <!-- ====== -->
 
-          <!-- Através da Aplicação -->
-          <div class="row align-items-center justify-content-center mt-7">
+          <!-- Segurança da Informação -->
+          <div class="row align-items-center justify-content-center mt-7" id="seginfo">
             <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
-              <video 
-                class="img-fluid px-6 px-md-0"
-                controls 
-                disablepictureinpicture
-                src="assets/video/aberturatickets_aplicacao.mp4"
-                poster="assets/img/generic/videothumb.png"
-                style="border-radius: 1rem; box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);"
-                >
-              </video>
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/infosecimg.svg" style="width: 20rem;" alt="Segurança da Informação" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
-              <h5 class="text-warning"><span class="fa-solid fa-desktop mr-2"></span>APP</h5>
-              <h3>Aplicação</h3>
-              <p>Nossa equipe fará a instalação da aplicação "Suporte ConsulTI" na sua estação de trabalho. Por ela, você também consegue nos acionar. O vídeo irá te ajudar.</p>
-              <!-- <p>Uma outra forma é enviando um email para "chamados@consulti.net.br". Desta forma, seu email será transformado em um ticket e irá para nosso portal. Veja no vídeo ao lado.</p> -->
-              <button class="btn btn-outline-warning border-2x rounded-pill btn-lg fs-0 py-2" type="button" data-toggle="modal" data-target="#exampleModal">Não encontrei a aplicação<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></button>
+              <h5 class="text-success"><span class="fa-solid fa-shield-alt mr-2"></span>SEGURANÇA DA INFORMAÇÃO</h5>
+              <h3>Proteção contra ameaças cibernéticas</h3>
+              <p>Soluções de segurança robustas, incluindo Pentest e BlueTeam, para proteger seus dados.</p>
+              <!-- <button class="btn btn-outline-warning border-2x rounded-pill btn-lg fs-0 py-2" type="button" data-toggle="modal" data-target="#exampleModal">Não encontrei a aplicação<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></button> -->
             </div>
           </div>
           <!-- ===== -->
 
-          <!-- Através do Email -->
-          <!-- <div class="row align-items-center justify-content-center mt-7">
+          <!-- Backup nas Nuvens -->
+          <div class="row align-items-center justify-content-center mt-7" id="cldbckp">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <video 
-                class="img-fluid px-6 px-md-0"
-                controls 
-                disablepictureinpicture
-                src="assets/video/aberturatickets_cliente.mp4"
-                poster="assets/img/generic/videothumb.png"
-                style="border-radius: 1rem; box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);"
-                >
-              </video>
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/cloudbckpimg.svg" style="width: 20rem;" alt="Backup nas nuvens" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
-              <h5 class="text-success"> <span class="far fa-paper-plane mr-2"></span>EMAIL</h5>
-              <h3>Envio de Email</h3>
-              <p>Uma outra forma é enviando um email para "chamados@consulti.net.br". Desta forma, seu email será transformado em um ticket e irá para nosso portal. Veja no vídeo ao lado.</p>
-              <a class="btn btn-outline-success border-2x rounded-pill btn-lg fs-0 py-2" href="mailto:chamados@consulti.net.br">Enviar um email<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a>
+              <h5 class="text-primary"> <span class="fa fa-cloud mr-2"></span>BACKUP NAS NUVENS</h5>
+              <h3>Soluções de backup em nuvem</h3>
+              <p>Garantimos a segurança e disponibilidade dos seus dados com backup em nuvem.</p>
+              <!-- <a class="btn btn-outline-success border-2x rounded-pill btn-lg fs-0 py-2" href="mailto:chamados@consulti.net.br">Enviar um email<span class="fas fa-play" data-fa-transform="shrink-6 down-1 right-5"></span></a> -->
             </div>
-          </div> -->
+          </div>
+          <!-- ===== -->
+
+          <!-- WiFi Corporativo e para Eventos -->
+          <div class="row align-items-center justify-content-center mt-7" id="corpwifi">
+            <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/wifiimg.svg" style="height: 17rem;" alt="WiFi Corporativo e para Eventos" />
+            </div>
+            <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
+              <h5 class="text-warning"><span class="fas fa-wifi mr-2"></span>WIFI CORPORATIVO E PARA EVENTOS</h5>
+              <h3>Conectividade sem fio de alta performance</h3>
+              <p>Soluções de WiFi para empresas e eventos, garantindo alta performance e segurança.</p>
+            </div>
+          </div>
+          <!-- ===== -->
+
+          <!-- Controle de Navegação na Internet -->
+          <div class="row align-items-center justify-content-center mt-7" id="cntrlwebnav">
+            <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/webcontrolimg.svg" style="width: 20rem;" alt="Controle de Navegação na Internet" />
+            </div>
+            <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
+              <h5 class="text-dark"><span class="fas fa-globe mr-2"></span>CONTROLE DE NAVEGAÇÃO NA INTERNET</h5>
+              <h3>Monitoramento e controle de acesso</h3>
+              <p>Ferramentas para aumentar a produtividade e segurança através do controle de navegação.</p>
+            </div>
+          </div>
+          <!-- ===== -->
+
+          <!-- Fibra Ótica e Rádio Digital -->
+          <div class="row align-items-center justify-content-center mt-7" id="optdgt">
+            <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/optdgt.svg" style="width: 20rem;" alt="Fibra Ótica e Rádio Digital" />
+            </div>
+            <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
+              <h5 class="text-secondary"><span class="fas fa-signal mr-2"></span>FIBRA ÓTICA E RÁDIO DIGITAL</h5>
+              <h3>Comunicação avançada de alta velocidade</h3>
+              <p>Infraestrutura de comunicação com fibra ótica e rádio digital para conectividade rápida.</p>
+            </div>
+          </div>
+          <!-- ===== -->
+
+          <!-- Consultoria em Telefonia Fixa e Móvel -->
+          <div class="row align-items-center justify-content-center mt-7" id="telconsul">
+            <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
+              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/telconsult.svg" style="width: 20rem;" alt="Consultoria em Telefonia Fixa e Móvel" />
+            </div>
+            <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
+              <h5 class="text-success"><span class="fas fa-phone mr-2"></span>CONSULTORIA EM TELEFONIA FIXA E MÓVEL</h5>
+              <h3>Otimização de custos e eficiência</h3>
+              <p>Assessoria especializada para otimizar os custos e a eficiência das comunicações fixas e móveis.</p>
+            </div>
+          </div>
           <!-- ===== -->
 
           <!-- Modal -->
@@ -506,30 +523,59 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h1 class="fs-2 fs-sm-4 fs-md-5">Here's what's in it for you</h1>
-              <p class="lead">Things you will get right out of the box with Falcon.</p>
+              <h1 class="fs-2 fs-sm-4 fs-md-5">Conheça nossos diferenciais</h1>
+              <p class="lead">Recursos que você terá imediatamente com ConsulTI.</p>
             </div>
           </div>
           <div class="row mt-6">
             <div class="col-lg-4">
               <div class="card card-span h-100">
-                <div class="card-span-img"><span class="fab fa-sass fs-4 text-info"></span></div>
+                <div class="card-span-img"><span class="fa fa-leaf fs-4 text-info"></span></div>
                 <div class="card-body pt-6 pb-4">
-                  <h5 class="mb-2">Bootstrap 4.3.1</h5>
-                  <p>Build your webapp with the world's most popular front-end component library along with Falcon's 32 sets of carefully designed elements.</p>
+                  <h5 class="mb-2">Planejamento Ecológico</h5>
+                  <p>Nossa abordagem sustentável visa minimizar o impacto ambiental através de práticas tecnológicas responsáveis, promovendo a eficiência energética e o uso consciente de recursos.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 mt-6 mt-lg-0">
               <div class="card card-span h-100">
-                <div class="card-span-img"><span class="fab fa-node-js fs-5 text-success"></span></div>
+                <div class="card-span-img"><span class="fa fa-tools fs-5 text-success"></span></div>
                 <div class="card-body pt-6 pb-4">
-                  <h5 class="mb-2">SCSS & Javascript files</h5>
-                  <p>With your purchased copy of Falcon, you will get all the uncompressed & documented SCSS and Javascript source code files.</p>
+                  <h5 class="mb-2">Soluções Personalizadas</h5>
+                  <p>Entendemos as necessidades únicas de cada cliente e oferecemos soluções sob medida que se alinham perfeitamente aos objetivos e desafios específicos do seu negócio.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 mt-6 mt-lg-0">
+              <div class="card card-span h-100">
+                <div class="card-span-img"><span class="fa fa-users fs-6 text-primary"></span></div>
+                <div class="card-body pt-6 pb-4">
+                  <h5 class="mb-2">Integração da Equipe</h5>
+                  <p>Fomentamos a colaboração entre nossos especialistas e sua equipe, garantindo que todas as soluções sejam implementadas de forma harmoniosa e eficaz.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-6">
+            <div class="col-lg-4">
+              <div class="card card-span h-100">
+                <div class="card-span-img"><span class="fa fa-chart-line fs-4 text-warning"></span></div>
+                <div class="card-body pt-6 pb-4">
+                  <h5 class="mb-2">Inteligência de Negócios</h5>
+                  <p>Utilizamos avançadas ferramentas de análise de dados para fornecer insights valiosos, ajudando sua empresa a tomar decisões informadas e estratégicas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-6 mt-lg-0">
+              <div class="card card-span h-100">
+                <div class="card-span-img"><span class="fa fa-headset fs-5 text-danger"></span></div>
+                <div class="card-body pt-6 pb-4">
+                  <h5 class="mb-2">Atendimento Remoto</h5>
+                  <p>Oferecemos suporte remoto de alta qualidade, garantindo que você tenha acesso a assistência técnica rápida e eficiente, independentemente de onde estiver.</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4 mt-6 mt-lg-0">
               <div class="card card-span h-100">
                 <div class="card-span-img"><span class="fab fa-gulp fs-6 text-danger"></span></div>
                 <div class="card-body pt-6 pb-4">
@@ -537,7 +583,7 @@
                   <p>All the painful or time-consuming tasks in your development workflow such as compiling the SCSS or transpiring the JS are automated.</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         
@@ -558,17 +604,19 @@
             <div class="col-lg-9 col-xl-8">
               <div class="owl-carousel owl-theme owl-theme-dark" data-options='{"margin":30,"nav":true,"autoplay":true,"autoplayHoverPause":true,"loop":true,"dots":false,"items":1}'>
                 <div class="px-5 px-sm-6">
-                  <p class="fs-sm-1 fs-md-2 font-italic text-dark">Falcon is the best option if you are looking for a theme built with Bootstrap. On top of that, Falcon's creators and support staff are very brilliant and attentive to users' needs.</p>
-                  <p class="fs-0 text-600">- Scott Tolinski, Web Developer</p><img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" />
+                  <p class="fs-sm-1 fs-md-2 font-italic text-dark">Um time dedicado e unido que mostra em cada projeto o que realmente deve ser feito para que o objetivo do cliente seja atingido. Impressionando com a qualidade e determinação na execução das demandas solicitadas.</p>
+                  <p class="fs-0 text-600">- Rannye Rodrigues, CEO of SysDevv</p>
+                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" /> -->
                 </div>
                 <div class="px-5 px-sm-6">
-                  <p class="fs-sm-1 fs-md-2 font-italic text-dark">We've become fanboys! Easy to change the modular design, great dashboard UI, enterprise-class support, fast loading time. What else do you want from a Bootstrap Theme?</p>
-                  <p class="fs-0 text-600">- Jeff Escalante, Developer</p><img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" />
+                  <p class="fs-sm-1 fs-md-2 font-italic text-dark">A ConsulTI é um time coeso e comprometido, que demonstra em cada projeto um claro entendimento do que é necessário para alcançar os objetivos dos clientes. Eles impressionam pela qualidade excepcional e pela determinação incansável na execução das demandas solicitadas, garantindo resultados que superam as expectativas.</p>
+                  <p class="fs-0 text-600">- Jhonatan Calleri, Developer</p>
+                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" /> -->
                 </div>
-                <div class="px-5 px-sm-6">
+                <!-- <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">When I first saw Falcon, I was totally blown away by the care taken in the interface. It felt like something that I'd really want to use and something I could see being a true modern replacement to the current class of Bootstrap themes.</p>
                   <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="assets/img/logos/paypal.png" alt="" height="45" />
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -585,16 +633,33 @@
       <!-- <section> begin ============================-->
       <section>
 
-        <div class="bg-holder overlay" style="background-image:url(assets/img/generic/bg-2.jpg);background-position: center top;">
+        <div class="bg-holder overlay" style="background-image:url(assets/img/generic/4.jpg);background-position: center top;">
         </div>
 
 
         <div class="container">
-          <div class="row justify-content-center text-center">
-            <div class="col-lg-8">
-              <p class="fs-3 fs-sm-4 text-white">Join our community of 20,000+ developers and content creators on their mission to build better sites and apps.</p>
-              <button class="btn btn-outline-light border-2x rounded-pill btn-lg mt-4 fs-0 py-2" type="button">Start your webapp</button>
+          <div class="row justify-content-center text-center" id="counterS">
+
+            <div class="col-lg-3">
+              <p data-counter="122" class="fs-3 fs-sm-6 mb-0 text-white"><span>122</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Clientes ativos</p>
             </div>
+
+            <div class="col-lg-3">
+              <p data-counter="80" class="fs-3 fs-sm-6 mb-0 text-white"><span>80</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Backup em Nuvem (TB)</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p data-counter="32" class="fs-3 fs-sm-6 mb-0 text-white"><span>32</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Cidades de atuação</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p data-counter="89500" class="fs-3 fs-sm-6 mb-0 text-white"><span>89500</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Chamados Atendidos</p>
+            </div>
+
           </div>
         </div>
 
@@ -614,9 +679,15 @@
           
           <div class="row">
             <div class="col-lg-4">
-              <h5 class="text-uppercase text-white opacity-85 mb-3">Our Mission</h5>
-              <p class="text-600">Falcon enables front end developers to build custom streamlined user interfaces in a matter of hours, while it gives backend developers all the UI elements they need to develop their web app. And it's robust design can be easily integrated with backends whether your app is based on ruby on rails, laravel, express or any other serverside system.</p>
-              <div class="icon-group mt-4"><a class="icon-item bg-white text-facebook" href="#!"><span class="fab fa-facebook-f"></span></a><a class="icon-item bg-white text-twitter" href="#!"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-google-plus" href="#!"><span class="fab fa-google-plus-g"></span></a><a class="icon-item bg-white text-linkedin" href="#!"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white" href="#!"><span class="fab fa-medium-m"></span></a></div>
+              <h5 class="text-uppercase text-white opacity-85 mb-3">Nosso Propósito</h5>
+              <p class="text-600 text-justify">A ConsulTI é uma empresa que nasceu para suprir as demandas das organizações na gestão eficiente do parque tecnológico por profissionais de qualidade e com um custo acessível. Com um corpo técnico altamente capacitado e com mais de 12 anos de experiência na gestão de tecnologia e vivência em TI em diversas empresas de pequeno, médio e grande porte do Brasil, nos mais diversos seguimentos.</p>
+              <div class="icon-group mt-4">
+                <a class="icon-item text-secondary" href="https://www.facebook.com/souconsulti/"><span class="fab fa-facebook-f"></span></a>
+                <a class="icon-item text-secondary" href="https://www.instagram.com/souconsulti/"><span class="fab fa-instagram"></span></a>
+                <a class="icon-item text-secondary" href="https://br.linkedin.com/company/souconsulti"><span class="fab fa-linkedin-in"></span></a>
+                <a class="icon-item text-secondary" href="https://wa.me/551831990747"><span class="fab fa-whatsapp"></span></a>
+                <!-- <a class="icon-item" href="#!"><span class="fab fa-medium-m"></span></a> -->
+              </div>
             </div>
             <div class="col pl-lg-6 pl-xl-8">
               <div class="row mt-5 mt-lg-0">
@@ -628,7 +699,7 @@
                     <li class="mb-1"><a class="text-600" href="#!">Careers</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Blog</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Terms</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Privacy</a></li>
+                    <li class="mb-1"><a class="text-600" href="politica_privacidade.html" target="_blank">Política de Privacidade</a></li>
                     <li><a class="text-600" href="#!">Imprint</a></li>
                   </ul>
                 </div>
@@ -681,13 +752,13 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-0 bg-dark">
+      <section class="py-0 bg-dark-2">
 
         <div>
-          <!-- <hr class="my-0 border-600 opacity-25" /> -->
+          <hr class="my-0 border-600 opacity-25" />
           <div class="container py-3">
             <div class="row align-items-end justify-content-end fs--1">
-              <div class="position-absolute btn-back-to-top bg-dark"><a class="text-600" href="#banner" data-fancyscroll="data-fancyscroll"><span class="fas fa-chevron-up" data-fa-transform="rotate-45"></span></a></div>
+              <div class="position-absolute btn-back-to-top bg-dark-2"><a class="text-600" href="#top" data-fancyscroll="data-fancyscroll"><span class="fas fa-chevron-up" data-fa-transform="rotate-45"></span></a></div>
               <div class="col-12 col-sm-auto text-center">
                 <p class="mb-0 text-600 opacity-85"></span><br class="d-sm-none" /> 2014 - <a id="dataAno"></a>  &copy; <a class="text-white opacity-85" href="https://themewagon.com">ConsulTi</a></p>
               </div>
@@ -727,8 +798,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
     <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
     <script src="assets/lib/typed.js/typed.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.rawgit.com/bfintal/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
 
     <script src="assets/js/theme.js"></script>
     <script>
@@ -736,13 +809,6 @@
       y = n.getFullYear();
 
       document.getElementById("dataAno").innerHTML = y;
-
-      const ps = new
-      PerfectScrollbar('#top', {
-      wheelSpeed: 2,
-      wheelPropagation: true,
-      minScrollbarLength: 20
-      });
     </script>
 
   </body>
