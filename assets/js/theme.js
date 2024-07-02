@@ -309,18 +309,18 @@ utils.$document.ready(function () {
     })[0].split('navbar-expand-')[1];
     utils.$window.resize(function () {
       if (utils.$window.width() > utils.breakpoints[breakpoint]) {
-        return $navbar.removeClass('bg-dark');
+        return $navbar.removeClass('bg-light');
       }
 
       if (!$navbar.find('.navbar-toggler').hasClass('collapsed')) {
-        return $navbar.addClass('bg-dark');
+        return $navbar.addClass('bg-light');
       }
 
       return null;
     }); // Top navigation background toggle on mobile
 
     $navbar.on('show.bs.collapse hide.bs.collapse', function (e) {
-      $(e.currentTarget).toggleClass('bg-dark');
+      $(e.currentTarget).toggleClass('bg-light');
     });
   }
 });
@@ -5359,5 +5359,134 @@ utils.$document.ready(function () {
   document.querySelector('a[href="#top"]').addEventListener('click', function(event) {
     event.preventDefault();
     document.querySelector('#top').scrollIntoView({ behavior: 'smooth' });
+  });
+})
+
+utils.$document.ready(function () {
+  document.querySelector('a[href="#top"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#top').scrollIntoView({ behavior: 'smooth' });
+  });
+})
+
+// utils.$document.ready(function () {
+//   $('a[href="#admserver"]').on('click', function(event) {
+//     event.preventDefault();
+//     var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+//     var scrollToPosition = $('#admserver').offset().top - (headerHeight + 100);
+//     $('html, body').animate({
+//       scrollTop: scrollToPosition
+//     }, 1000);
+//   });
+// })
+
+utils.$document.ready(function () {
+  $('a[href="#admnet"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#admnet').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#seginfo"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#seginfo').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#cldbckp"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#cldbckp').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#corpwifi"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#corpwifi').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#cntrlwebnav"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#cntrlwebnav').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#optdgt"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#optdgt').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  $('a[href="#telconsul"]').on('click', function(event) {
+    event.preventDefault();
+    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
+    var scrollToPosition = $('#telconsul').offset().top - (headerHeight + 100);
+    $('html, body').animate({
+      scrollTop: scrollToPosition
+    }, 1000);
+  });
+})
+
+utils.$document.ready(function () {
+  document.querySelector('a[href="#services"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#services').scrollIntoView({ behavior: 'smooth' });
+  });
+})
+
+
+utils.$document.ready(function () {
+  function initializeCounterUp() {
+    $('[data-counter]').each(function() {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).data('counter')
+      }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function(now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+  }
+
+  // Detecta quando a seção está visível
+  var waypoint = new Waypoint({
+    element: $('#counterS'), // Substitua com o ID da sua seção
+    handler: function(direction) {
+      initializeCounterUp();
+      this.destroy(); // Remove o waypoint após a animação ser executada
+    },
+    offset: '75%' // Ajusta conforme necessário
   });
 })
