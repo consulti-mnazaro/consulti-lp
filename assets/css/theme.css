@@ -7967,6 +7967,10 @@ button.bg-light:focus {
   background-color: #0b1727 !important;
 }
 
+.bg-dark-2 {
+  background-color: #010b13 !important;
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -24408,8 +24412,6 @@ div[data-collapse] + .kanban-item,
 .logo-carousel-container {
   position: relative;
 }
-
-
 
 .logo-carousel::before,
 .logo-carousel::after {
