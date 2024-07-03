@@ -1,44 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>ConsulTI | Abertura de Tickets</title>
-
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
-    <!-- <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <script src="assets/js/config.navbar-vertical.js"></script>
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> -->
-    <script src="https://kit.fontawesome.com/a750bc7a4c.js" crossorigin="anonymous"></script>
-    <link href="assets/lib/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet">
-    <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-
-    <!-- Slick Carousel -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <!-- ====================== -->
-
-  </head>
-
+  <?php require('assets/includes/header.php')?>
 
   <body id="body">
     
@@ -54,135 +16,19 @@
               <img src="assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
               <img src="assets/img/icons/consulti_logoWhite.svg" height="50"/>
             </a>
-            <!-- <ul class="navbar-nav">
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownHome" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownHome">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownHome" href="index.html">Home</a>
+                <!-- <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownHome">
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
-                </div>
+                </div> -->
               </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownPages">
-                  <div class="card navbar-card-pages shadow-none">
-                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown">
-                      <div class="row">
-                        <div class="col-6 col-md-auto">
-                          <div class="nav flex-column">
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admserver" data-fancyscroll="data-fancyscroll">Administração de Servidores</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admnet">Administração de Redes</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#seginfo">Segurança da Informação</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cldbckp">Backups em Nuvem</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#corpwifi">WiFi Corporativo e Eventos</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cntrlwebnav">Controle de Navegação da Internet</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#optdgt">Fibra Ótica e Rádio Digital</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#telconsul">Consultoria em Telefonia Fixa e Móvel</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+              <!-- <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownDocumentation">
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../documentation/getting-started.html">Getting started</a><a class="dropdown-item" href="../documentation/file-structure.html">File structure</a><a class="dropdown-item" href="../documentation/customization.html">Customization</a><a class="dropdown-item" href="../documentation/dark-mode.html">Dark mode</a><a class="dropdown-item" href="../documentation/fluid-layout.html">Fluid layout</a><a class="dropdown-item" href="../documentation/gulp.html">Gulp</a><a class="dropdown-item" href="../documentation/RTL.html">RTL</a><a class="dropdown-item" href="../documentation/plugins.html">Plugins</a>
                   </div>
                 </div>
-              </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownComponents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownComponents">
-                  <div class="card shadow-none navbar-card-components">
-                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown">
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/accordion.html">Accordion</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/alerts.html">Alerts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/avatar.html">Avatar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/background.html">Background</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/badges.html">Badges</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/breadcrumb.html">Breadcrumb</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/bulk-select.html">Bulk select</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/buttons.html">Buttons</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/cards.html">Cards</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/carousel.html">Carousel</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/collapse.html">Collapse</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/countup.html">Countup</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/dropdowns.html">Dropdowns</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/fancyscroll.html">Fancyscroll</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/fancytab.html">Fancytab</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/forms.html">Forms</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/hoverbox.html">Hoverbox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/list-group.html">List group</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/modals.html">Modals</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/media-object.html">Media object</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navs.html">Navs</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/default.html">Navbar default</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/vertical.html">Navbar vertical<span class="badge badge-pill ml-2 fs--2 badge-soft-success">Updated</span></a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/top.html">Navbar top</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/cookie-notice.html">Cookie notice</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/page-headers.html">Page headers</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/pagination.html">Pagination</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/popovers.html">Popovers</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/progress.html">Progress</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/scrollspy.html">Scrollspy</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/sidepanel.html">Sidepanel</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/spinners.html">Spinners</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tables.html">Tables</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tabs.html">Tabs</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/toasts.html">Toasts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tooltips.html">Tooltips</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nav-link py-1 text-900 font-weight-bold mt-3">Plugins</div>
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/bootstrap-wizard.html">Bootstrap wizard</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/charts/chart-js.html">Chart js</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/charts/echarts.html">Echarts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/countdown.html">Countdown</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/data-table.html">Data table</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/date-picker.html">Date picker</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/draggable.html">Draggable</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/dropzone.html">Dropzone</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/emojionearea.html">Emojionearea</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/fancybox.html">Fancybox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/fontawesome.html">Fontawesome</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/inline-player.html">Inline player</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/lightbox.html">Lightbox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/lottie.html">Lottie</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/map/google-map.html">Google map</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/map/leaflet-map.html">Leaflet map</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/toastr.html">Toastr</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/owl-carousel.html">Owl carousel</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/perfect-scrollbar.html">Perfect scrollbar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/progressbar.html">Progressbar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/raty.html">Raty</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/select2.html">Select2</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/tinymce.html">Tinymce</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/typed-text.html">Typed text</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nav-link py-1 text-900 font-weight-bold mt-3">Utilities</div>
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/borders.html">Borders</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/clearfix.html">Clearfix</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/close-icon.html">Close icon</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/colors.html">Colors</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/display.html">Display</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/embed.html">Embed</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/figures.html">Figures</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/flex.html">Flex</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/grid.html">Grid</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/sizing.html">Sizing</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/spacing.html">Spacing</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/stretched-link.html">Stretched link</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/typography.html">Typography</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/vertical-align.html">Vertical align</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/visibility.html">Visibility</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownAuthentication" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Authentication</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownAuthentication">
-                  <div class="card shadow-none navbar-card-auth">
-                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown"><img class="position-absolute b-0 r-0" src="../assets/img/illustrations/authentication-corner.png" width="130" alt="" />
-                      <div class="row">
-                        <div class="col-6 col-xxl-3">
-                          <div class="nav-link py-1 text-900 font-weight-bold">Basic</div>
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/login.html">Login</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/logout.html">Logout</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/register.html">Register</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/forgot-password.html">Forgot password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/reset-password.html">Reset password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/confirm-mail.html">Confirm mail</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/basic/lock-screen.html">Lock screen</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xxl-3">
-                          <div class="nav flex-column">
-                            <div class="nav-link py-1 text-900 font-weight-bold">Split</div><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/login.html">Login</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/logout.html">Logout</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/register.html">Register</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/forgot-password.html">Forgot password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/reset-password.html">Reset password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/confirm-mail.html">Confirm mail</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/split/lock-screen.html">Lock screen</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xxl-3">
-                          <div class="nav flex-column">
-                            <div class="nav-link py-1 text-900 font-weight-bold mt-3 mt-xxl-0">Card</div><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/login.html">Login</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/logout.html">Logout</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/register.html">Register</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/forgot-password.html">Forgot password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/reset-password.html">Reset password</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/confirm-mail.html">Confirm mail</a><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/card/lock-screen.html">Lock screen</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xxl-3">
-                          <div class="nav flex-column">
-                            <div class="nav-link py-1 text-900 font-weight-bold mt-3 mt-xxl-0">Special</div><a class="nav-link py-1 text-700 font-weight-medium" href="../authentication/wizard.html">Wizard</a><a class="nav-link py-1" href="#!" data-toggle="modal" data-target="#authentication-modal">In Modal</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul> -->
+              </li> -->
+            </ul>
             
             <!-- <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" href="../index.html"><span class="fas fa-chart-pie d-none d-lg-inline-block" data-toggle="tooltip" data-placement="bottom" title="Dashboard"></span><span class="d-lg-none">Dashboard</span></a></li>
@@ -361,25 +207,86 @@
               target="_blank"
             ><span class="fab fa-internet-explorer mr-2"></span>INTERNET EXPLORER</a>
           </div>
+
+          <div class="row justify-content-start text-center">
+            <h1 class="fs-2 fs-sm-4 fs-md-5"></h1>
+            <p class="lead text-justify"></p>
+          </div>
+
+          <div class="row justify-content-start text-center">
+            <h1 class="fs-2 fs-sm-4 fs-md-5 text-900">Cookies que definimos</h1>
+          </div>
+
+          <div class="row justify-content-start text-center">
+            <h2 class="fs-1 fs-sm-3 fs-md-4">Cookies relacionados ao login</h2>
+            <p class="lead text-justify">Utilizamos cookies quando você está logado ou cadastrando o seu currículo, para que possamos lembrar dessa ação. Isso evita que você precise fazer login sempre que visitar uma nova página. Esses cookies são normalmente removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas a recursos e áreas restritas ao efetuar login. </p>
+          </div>
+
+          <div class="row justify-content-start text-center">
+            <h2 class="fs-1 fs-sm-3 fs-md-4">Cookies relacionados à banners</h2>
+            <p class="lead text-justify">Utilizamos cookies quando você está logado ou cadastrando o seu currículo, para que possamos lembrar dessa ação. Isso evita que você precise fazer login sempre que visitar uma nova página. Esses cookies são normalmente removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas a recursos e áreas restritas ao efetuar login. </p>
+          </div>
+
+          <div class="row justify-content-start text-center">
+            <h2 class="fs-1 fs-sm-3 fs-md-4">Cookies relacionados à segurança</h2>
+            <p class="lead text-justify">Utilizamos estes cookies para fornecer uma camada a mais de proteção. Eles armazenam tokens que são conferidos no servidor para evitar certos tipos de ataques. </p>
+          </div>
+
+          <div class="row justify-content-start text-center">
+            <h2 class="fs-1 fs-sm-3 fs-md-4">Gerenciamento de consentimento dos cookies</h2>
+            <p class="lead text-justify">Utilizamos estes cookies para o gerenciamento do consentimento dos nossos visitantes sobre a nossa politica de cookies. Eles serão responsáveis por armazenar as suas escolhas sobre a nossa política de cookies e identificar quando é necessário exibir para o usuário a opção para aceitar os cookies. </p>
+          </div>
+
         </div>
         
-
+        
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
+      
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-light text-center">
-
+      <section class="bg-light text-center pt-2 pt-lg-4 pb-2 pb-lg-4">
+          
         <div class="container">
-          <div class="row">
+          <table class="table">
+            <!-- <thead style="background-color: #444655; color: #fff; font-weight: 500; height: 2.5rem;"> -->
+            <thead>
+              <tr>
+                <td>Nome do cookie</td>
+                <td>Descrição</td>
+                <td>Categoria</td>
+                <td>Duração</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AdoptID</td>
+                <td>Identifica o visitante para exibição do aviso para consentimento dos cookies</td>
+                <td>Gerenciamento do consentimentos dos cookies</td>
+                <td>60 dias</td>
+              </tr>
+              <tr>
+                <td>AdoptConsent</td>
+                <td>Armazena as informações do seu consentimento sobre os usos dos cookies</td>
+                <td>Gerenciamento do consentimentos dos cookies</td>
+                <td>60 dias</td>
+              </tr>
+              <tr>
+                <td>XSRF-TOKEN</td>
+                <td>Este cookie contém um token de segurança para proteção contra ataques do tipo CSRF</td>
+                <td>Segurança</td>
+                <td>30 minutos após o último acesso</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <div class="row">
             <div class="col">
               <h1 class="fs-2 fs-sm-4 fs-md-5">Conheça nossos diferenciais</h1>
               <p class="lead">Recursos que você terá imediatamente com ConsulTI.</p>
             </div>
-          </div>
-          <div class="row mt-6">
+          </div> -->
+          <!-- <div class="row mt-6">
             <div class="col-lg-4">
               <div class="card card-span h-100">
                 <div class="card-span-img"><span class="fa fa-leaf fs-4 text-info"></span></div>
@@ -426,7 +333,7 @@
                   <p>Oferecemos suporte remoto de alta qualidade, garantindo que você tenha acesso a assistência técnica rápida e eficiente, independentemente de onde estiver.</p>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- <div class="col-lg-4 mt-6 mt-lg-0">
               <div class="card card-span h-100">
                 <div class="card-span-img"><span class="fab fa-gulp fs-6 text-danger"></span></div>
@@ -435,8 +342,8 @@
                   <p>All the painful or time-consuming tasks in your development workflow such as compiling the SCSS or transpiring the JS are automated.</p>
                 </div>
               </div>
-            </div> -->
-          </div>
+            </div>
+          </div> -->
         </div>
         
 
@@ -449,77 +356,36 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-200 text-center">
+      <section>
 
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-9 col-xl-8">
-              <div class="owl-carousel owl-theme owl-theme-dark" data-options='{"margin":30,"nav":true,"autoplay":true,"autoplayHoverPause":true,"loop":true,"dots":false,"items":1}'>
+              <div class="row justify-content-start text-center" style="display: flex; flex-direction: column;">
+                <h1 class="fs-2 fs-sm-4 fs-md-5">Mais Informações</h1>
+                <br>
+                <p class="lead text-center">Em caso de dúvidas entre em contato através do e-mail dpo@consulti.net.br.</p>
+                Última atualização em 03/07/2024. 
+              </div>
+              <!-- <div class="owl-carousel owl-theme owl-theme-dark" data-options='{"margin":30,"nav":true,"autoplay":true,"autoplayHoverPause":true,"loop":true,"dots":false,"items":1}'>
                 <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">Um time dedicado e unido que mostra em cada projeto o que realmente deve ser feito para que o objetivo do cliente seja atingido. Impressionando com a qualidade e determinação na execução das demandas solicitadas.</p>
                   <p class="fs-0 text-600">- Rannye Rodrigues, CEO of SysDevv</p>
-                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" /> -->
+                  <img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" />
                 </div>
                 <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">A ConsulTI é um time coeso e comprometido, que demonstra em cada projeto um claro entendimento do que é necessário para alcançar os objetivos dos clientes. Eles impressionam pela qualidade excepcional e pela determinação incansável na execução das demandas solicitadas, garantindo resultados que superam as expectativas.</p>
                   <p class="fs-0 text-600">- Jhonatan Calleri, Developer</p>
-                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" /> -->
+                  <img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" />
                 </div>
-                <!-- <div class="px-5 px-sm-6">
+                <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">When I first saw Falcon, I was totally blown away by the care taken in the interface. It felt like something that I'd really want to use and something I could see being a true modern replacement to the current class of Bootstrap themes.</p>
                   <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="assets/img/logos/paypal.png" alt="" height="45" />
-                </div> -->
-              </div>
-            </div>
-          </div>
+                </div>
+              </div> -->
         </div>
 
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-
-        <div class="bg-holder overlay" style="background-image:url(assets/img/generic/4.jpg);background-position: center top;">
-        </div>
-
-
-        <div class="container">
-          <div class="row justify-content-center text-center" id="counterS">
-
-            <div class="col-lg-3">
-              <p data-counter="122" class="fs-3 fs-sm-6 mb-0 text-white"><span>122</span></p>
-              <p class="fs-1 fs-sm-1 text-white">Clientes ativos</p>
-            </div>
-
-            <div class="col-lg-3">
-              <p data-counter="80" class="fs-3 fs-sm-6 mb-0 text-white"><span>80</span></p>
-              <p class="fs-1 fs-sm-1 text-white">Backup em Nuvem (TB)</p>
-            </div>
-
-            <div class="col-lg-3">
-              <p data-counter="32" class="fs-3 fs-sm-6 mb-0 text-white"><span>32</span></p>
-              <p class="fs-1 fs-sm-1 text-white">Cidades de atuação</p>
-            </div>
-
-            <div class="col-lg-3">
-              <p data-counter="89500" class="fs-3 fs-sm-6 mb-0 text-white"><span>89500</span></p>
-              <p class="fs-1 fs-sm-1 text-white">Chamados Atendidos</p>
-            </div>
-
-          </div>
-        </div>
-
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
 
 
 
@@ -612,7 +478,7 @@
             <div class="row align-items-end justify-content-end fs--1">
               <div class="position-absolute btn-back-to-top bg-dark-2"><a class="text-600" href="#top" data-fancyscroll="data-fancyscroll"><span class="fas fa-chevron-up" data-fa-transform="rotate-45"></span></a></div>
               <div class="col-12 col-sm-auto text-center">
-                <p class="mb-0 text-600 opacity-85"></span><br class="d-sm-none" /> 2014 - <a id="dataAno"></a>  &copy; <a class="text-white opacity-85" href="https://themewagon.com">ConsulTi</a></p>
+                <p class="mb-0 text-600 opacity-85"></span><br class="d-sm-none" /> 2014 - <a id="dataAno"></a>  &copy; <a class="text-white opacity-85" href="index.html">ConsulTi</a></p>
               </div>
               <div class="col-12 col-sm-auto text-center">
                 <!-- <p class="mb-0 text-600 opacity-85">v2.6.0</p> -->
@@ -638,24 +504,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/lib/@fortawesome/all.min.js"></script>
-    <script src="assets/lib/stickyfilljs/stickyfill.min.js"></script>
-    <script src="assets/lib/sticky-kit/sticky-kit.min.js"></script>
-    <script src="assets/lib/is_js/is.min.js"></script>
-    <script src="assets/lib/lodash/lodash.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
-    <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
-    <script src="assets/lib/typed.js/typed.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdn.rawgit.com/bfintal/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-
-
-    <script src="assets/js/theme.js"></script>
+    <?php require('assets/includes/footer.php')?>
     <script>
       n = new Date();
       y = n.getFullYear();

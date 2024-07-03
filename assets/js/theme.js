@@ -2320,7 +2320,7 @@ utils.$document.ready(function ($) {
 
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - ($this.data('offset') || 0)
+          scrollTop: target.offset().top - (($this.data('offset') || 0) + 50)
         }, 400, 'swing', function () {
           var hash = $this.attr('href');
           window.history.pushState ? window.history.pushState(null, null, hash) : window.location.hash = hash;
@@ -5379,90 +5379,6 @@ utils.$document.ready(function () {
 //     }, 1000);
 //   });
 // })
-
-utils.$document.ready(function () {
-  $('a[href="#admnet"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#admnet').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#seginfo"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#seginfo').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#cldbckp"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#cldbckp').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#corpwifi"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#corpwifi').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#cntrlwebnav"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#cntrlwebnav').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#optdgt"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#optdgt').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  $('a[href="#telconsul"]').on('click', function(event) {
-    event.preventDefault();
-    var headerHeight = $('.fixed-top').outerHeight(); // Substitua com a classe ou ID do seu cabeçalho
-    var scrollToPosition = $('#telconsul').offset().top - (headerHeight + 100);
-    $('html, body').animate({
-      scrollTop: scrollToPosition
-    }, 1000);
-  });
-})
-
-utils.$document.ready(function () {
-  document.querySelector('a[href="#services"]').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.querySelector('#services').scrollIntoView({ behavior: 'smooth' });
-  });
-})
 
 
 utils.$document.ready(function () {

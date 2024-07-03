@@ -1,44 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>ConsulTI | Abertura de Tickets</title>
-
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
-    <!-- <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <script src="assets/js/config.navbar-vertical.js"></script>
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> -->
-    <script src="https://kit.fontawesome.com/a750bc7a4c.js" crossorigin="anonymous"></script>
-    <link href="assets/lib/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet">
-    <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-
-    <!-- Slick Carousel -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <!-- ====================== -->
-
-  </head>
-
+<?php require('assets/includes/header.php')?>
 
   <body id="body">
     
@@ -51,8 +14,8 @@
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarStandard">
             <a class="navbar-brand" href="#top">
-              <img src="assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
-              <img src="assets/img/icons/consulti_logoWhite.svg" height="50"/>
+              <img src="./assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
+              <img src="./assets/img/icons/consulti_logoWhite.svg" height="50"/>
             </a>
             <ul class="navbar-nav">
               <!-- <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownHome" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
@@ -60,7 +23,7 @@
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
                 </div>
               </li> -->
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-fancyscroll="data-fancyscroll">Serviços</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownPages">
                   <div class="card navbar-card-pages shadow-none">
                     <div class="card-body scrollbar perfect-scrollbar max-h-dropdown">
@@ -68,13 +31,13 @@
                         <div class="col-6 col-md-auto">
                           <div class="nav flex-column">
                             <a class="nav-link py-1 text-700 font-weight-medium" href="#admserver" data-fancyscroll="data-fancyscroll">Administração de Servidores</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admnet">Administração de Redes</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#seginfo">Segurança da Informação</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cldbckp">Backups em Nuvem</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#corpwifi">WiFi Corporativo e Eventos</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cntrlwebnav">Controle de Navegação da Internet</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#optdgt">Fibra Ótica e Rádio Digital</a>
-                            <a class="nav-link py-1 text-700 font-weight-medium" href="#telconsul">Consultoria em Telefonia Fixa e Móvel</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#admnet" data-fancyscroll="data-fancyscroll">Administração de Redes</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#seginfo" data-fancyscroll="data-fancyscroll">Segurança da Informação</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cldbckp" data-fancyscroll="data-fancyscroll">Backups em Nuvem</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#corpwifi" data-fancyscroll="data-fancyscroll">WiFi Corporativo e Eventos</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#cntrlwebnav" data-fancyscroll="data-fancyscroll">Controle de Navegação da Internet</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#optdgt" data-fancyscroll="data-fancyscroll">Fibra Ótica e Rádio Digital</a>
+                            <a class="nav-link py-1 text-700 font-weight-medium" href="#telconsul" data-fancyscroll="data-fancyscroll">Consultoria em Telefonia Fixa e Móvel</a>
                           </div>
                         </div>
                       </div>
@@ -155,7 +118,7 @@
               <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownAuthentication" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Authentication</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownAuthentication">
                   <div class="card shadow-none navbar-card-auth">
-                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown"><img class="position-absolute b-0 r-0" src="../assets/img/illustrations/authentication-corner.png" width="130" alt="" />
+                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown"><img class="position-absolute b-0 r-0" src="./assets/img/illustrations/authentication-corner.png" width="130" alt="" />
                       <div class="row">
                         <div class="col-6 col-xxl-3">
                           <div class="nav-link py-1 text-900 font-weight-bold">Basic</div>
@@ -244,43 +207,41 @@
             <div class="modal-body p-4">
               <div class="row text-left justify-content-between align-items-center mb-2">
                 <div class="col-auto">
-                  <h5 id="modalLabel">Register</h5>
+                  <h5 id="modalLabel">Fale Conosco</h5>
                 </div>
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                   <p class="fs--1 text-600 mb-0">Have an account? <a href="../authentication/basic/login.html">Login</a></p>
-                </div>
+                </div> -->
               </div>
               <form>
                 <div class="form-group">
-                  <input class="form-control" type="text" placeholder="Name" />
+                  <input class="form-control" type="text" placeholder="Nome" />
                 </div>
                 <div class="form-group">
-                  <input class="form-control" type="email" placeholder="Email address" />
+                  <input class="form-control" type="email" placeholder="Email" />
                 </div>
-                <div class="form-row">
-                  <div class="form-group col-6">
-                    <input class="form-control" type="password" placeholder="Password" />
-                  </div>
-                  <div class="form-group col-6">
-                    <input class="form-control" type="password" placeholder="Confirm Password" />
-                  </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Contato" />
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="5" placeholder="Mensagem"></textarea>
                 </div>
                 <div class="custom-control custom-checkbox">
                   <input class="custom-control-input" type="checkbox" id="modal-register-checkbox" />
-                  <label class="custom-control-label" for="modal-register-checkbox">I accept the <a href="#!">terms </a>and <a href="#!">privacy policy</a></label>
+                  <label class="custom-control-label" for="modal-register-checkbox">Aceito os <a href="#!">Termos </a>e <a href="politica_privacidade.html">Política de Privacidade</a></label>
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-primary btn-block mt-3" type="submit" name="submit">Register</button>
+                  <button class="btn btn-primary btn-block mt-3" type="submit" name="submit">Enviar</button>
                 </div>
               </form>
               <div class="w-100 position-relative mt-4">
                 <hr class="text-300" />
-                <div class="position-absolute absolute-centered t-0 px-3 bg-white text-sans-serif fs--1 text-500 text-nowrap">or register with</div>
+                <div class="position-absolute absolute-centered t-0 px-3 bg-white text-sans-serif fs--1 text-500 text-nowrap">ou entre em contato por</div>
               </div>
               <div class="form-group mb-0">
                 <div class="row no-gutters">
-                  <div class="col-sm-6 pr-sm-1"><a class="btn btn-outline-google-plus btn-sm btn-block mt-2" href="#"><span class="fab fa-google-plus-g mr-2" data-fa-transform="grow-8"></span> google</a></div>
-                  <div class="col-sm-6 pl-sm-1"><a class="btn btn-outline-facebook btn-sm btn-block mt-2" href="#"><span class="fab fa-facebook-square mr-2" data-fa-transform="grow-8"></span> facebook</a></div>
+                  <div class="col-sm-6 pr-sm-1"><a class="btn btn-outline-success btn-sm btn-block mt-2" href="https://wa.me/551831990747" target="_blank"><span class="fab fa-whatsapp mr-2" data-fa-transform="grow-8"></span> Whatsapp</a></div>
+                  <div class="col-sm-6 pl-sm-1"><a class="btn btn-outline-facebook btn-sm btn-block mt-2" href="https://www.facebook.com/souconsulti/" target="_blank"><span class="fab fa-facebook-square mr-2" data-fa-transform="grow-8"></span> facebook</a></div>
                 </div>
               </div>
             </div>
@@ -292,18 +253,18 @@
       <!-- <section> begin ============================-->
       <section class="py-0 overflow-hidden" id="banner">
 
-        <div class="bg-holder overlay" style="background-image:url(../assets/img/generic/5.jpg);background-position: center bottom;">
+        <div class="bg-holder overlay" style="background-image:url(./assets/img/generic/5.jpg);background-position: center bottom;">
         </div>
         <!--/.bg-holder-->
 
         <div class="container">
           <div class="row justify-content-center align-items-center pt-8 pt-lg-10 pb-lg-9 pb-xl-0">
             <div class="col-md-11 col-lg-8 col-xl-4 pb-7 pb-xl-9 text-center text-xl-left">
-              <a class="btn btn-outline-info mb-4 fs--1 border-2x rounded-pill" href="#!"><span class="mr-2" role="img" aria-label="Hands">🤝</span>Seja um cliente</a>
+              <a class="btn btn-outline-info mb-4 fs--1 border-2x rounded-pill" href="#!" data-toggle="modal" data-target="#exampleModal"><span class="mr-2" role="img" aria-label="Hands">🤝</span>Seja um cliente</a>
               <h1 class="text-white font-weight-light">A ConsulTI oferece soluções em <span class="typed-text font-weight-bold" data-typed-text='["suporte","software","redes"]'></span><br /></h1>
               <p class="lead text-white opacity-75">Entre em contato conosco e seja mais um cliente parceiro</p>
             </div>                                  
-            <div class="col-xl-7 offset-xl-1 align-self-end"><a class="img-landing-banner" href="index.html"><img class="img-fluid" src="assets/img/generic/baner.png" alt="" /></a></div>
+            <div class="col-xl-7 offset-xl-1 align-self-end"><a class="img-landing-banner" href="index.html"><img class="img-fluid" src="./assets/img/generic/baner.png" alt="" /></a></div>
           </div>
         </div>
         <!-- end of .container-->
@@ -321,18 +282,18 @@
 
         <div class="container logo-carousel-container">
           <div class="row justify-content-center align-items-center logo-carousel">
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="assets/img/logos/b&amp;w/6.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="45" src="assets/img/logos/b&amp;w/11.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="assets/img/logos/b&amp;w/2.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="assets/img/logos/b&amp;w/4.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="assets/img/logos/b&amp;w/1.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="assets/img/logos/b&amp;w/10.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="assets/img/logos/b&amp;w/12.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="assets/img/logos/b&amp;w/3.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="assets/img/logos/b&amp;w/5.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="assets/img/logos/b&amp;w/7.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="assets/img/logos/b&amp;w/8.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="assets/img/logos/b&amp;w/9.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/6.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="45" src="./assets/img/logos/b&amp;w/11.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/2.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/4.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="./assets/img/logos/b&amp;w/1.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/10.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/12.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/3.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/5.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/7.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/8.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="./assets/img/logos/b&amp;w/9.png" alt="" /></div>
           </div>
         </div>
 
@@ -359,7 +320,7 @@
           <!-- Administração de Servidores -->
           <div class="row align-items-center justify-content-center mt-8" id="admserver">
             <div class="col-md col-lg-7 col-xl-4 pl-lg-6">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/serverimg.svg" style="width: 20rem;" alt="Adminsitração de Servidores" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/serverimg.svg" style="width: 20rem;" alt="Adminsitração de Servidores" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-danger"><span class="fa-solid fa-server mr-2"></span>ADMINISTRAÇÃO DE SERVIDORES</h5>
@@ -377,7 +338,7 @@
           <!-- Administração de Redes -->
           <div class="row align-items-center justify-content-center mt-7" id="admnet">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/networkimg.svg" style="width: 20rem;" alt="Administração de Redes" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/networkimg.svg" style="width: 20rem;" alt="Administração de Redes" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-info"> <span class="fa-solid fa-sitemap mr-2"></span>ADMINISTRAÇÃO DE REDES</h5>
@@ -395,7 +356,7 @@
           <!-- Segurança da Informação -->
           <div class="row align-items-center justify-content-center mt-7" id="seginfo">
             <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/infosecimg.svg" style="width: 20rem;" alt="Segurança da Informação" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/infosecimg.svg" style="width: 20rem;" alt="Segurança da Informação" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-success"><span class="fa-solid fa-shield-alt mr-2"></span>SEGURANÇA DA INFORMAÇÃO</h5>
@@ -409,7 +370,7 @@
           <!-- Backup nas Nuvens -->
           <div class="row align-items-center justify-content-center mt-7" id="cldbckp">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/cloudbckpimg.svg" style="width: 20rem;" alt="Backup nas nuvens" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/cloudbckpimg.svg" style="width: 20rem;" alt="Backup nas nuvens" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-primary"> <span class="fa fa-cloud mr-2"></span>BACKUP NAS NUVENS</h5>
@@ -423,7 +384,7 @@
           <!-- WiFi Corporativo e para Eventos -->
           <div class="row align-items-center justify-content-center mt-7" id="corpwifi">
             <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/wifiimg.svg" style="height: 17rem;" alt="WiFi Corporativo e para Eventos" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/wifiimg.svg" style="height: 17rem;" alt="WiFi Corporativo e para Eventos" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-warning"><span class="fas fa-wifi mr-2"></span>WIFI CORPORATIVO E PARA EVENTOS</h5>
@@ -436,7 +397,7 @@
           <!-- Controle de Navegação na Internet -->
           <div class="row align-items-center justify-content-center mt-7" id="cntrlwebnav">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/webcontrolimg.svg" style="width: 20rem;" alt="Controle de Navegação na Internet" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/webcontrolimg.svg" style="width: 20rem;" alt="Controle de Navegação na Internet" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-dark"><span class="fas fa-globe mr-2"></span>CONTROLE DE NAVEGAÇÃO NA INTERNET</h5>
@@ -449,7 +410,7 @@
           <!-- Fibra Ótica e Rádio Digital -->
           <div class="row align-items-center justify-content-center mt-7" id="optdgt">
             <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/optdgt.svg" style="width: 20rem;" alt="Fibra Ótica e Rádio Digital" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/optdgt.svg" style="width: 20rem;" alt="Fibra Ótica e Rádio Digital" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-secondary"><span class="fas fa-signal mr-2"></span>FIBRA ÓTICA E RÁDIO DIGITAL</h5>
@@ -462,7 +423,7 @@
           <!-- Consultoria em Telefonia Fixa e Móvel -->
           <div class="row align-items-center justify-content-center mt-7" id="telconsul">
             <div class="col-md col-lg-5 col-xl-4 pr-lg-6 order-md-2">
-              <img class="img-fluid px-6 px-md-0" src="assets/img/illustrations/telconsult.svg" style="width: 20rem;" alt="Consultoria em Telefonia Fixa e Móvel" />
+              <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/telconsult.svg" style="width: 20rem;" alt="Consultoria em Telefonia Fixa e Móvel" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
               <h5 class="text-success"><span class="fas fa-phone mr-2"></span>CONSULTORIA EM TELEFONIA FIXA E MÓVEL</h5>
@@ -486,19 +447,19 @@
                   <strong>1° Passo</strong>
                   <br>
                   Procurar pelo atalho na sua área de trabalho: 'Suporte ConsulTI' <br>
-                  <img src="assets/img/generic/appdesktop.png" alt="Area de Trabalho" width="750" style="border-radius: 0.25rem;">
+                  <img src="./assets/img/generic/appdesktop.png" alt="Area de Trabalho" width="750" style="border-radius: 0.25rem;">
                   <br>
                   <p></p>
                   <strong>2° Passo</strong>
                   <br>
                   Procurar na barra de tarefas <br>
-                  <img src="assets/img/generic/apptaskbar.png" alt="Barra de Tarefas" width="750" style="border-radius: 0.25rem;">
+                  <img src="./assets/img/generic/apptaskbar.png" alt="Barra de Tarefas" width="750" style="border-radius: 0.25rem;">
                   <br>
                   <p></p>
                   <strong>3° Passo</strong>
                   <br>
                   Pesquisar na barra de pesquisa: 'Suporte ConsulTI'
-                  <img src="assets/img/generic/appstartmenu.png" alt="Menu Iniciar" width="750" style="border-radius: 0.25rem;">
+                  <img src="./assets/img/generic/appstartmenu.png" alt="Menu Iniciar" width="750" style="border-radius: 0.25rem;">
                   <br>
                   <p></p>
                   Caso tenha seguido todos os passos e não encontrou a aplicação, entre em contato com a <a href="https://wa.me/551831990747" target="_blank" rel="noopener noreferrer"><strong>Central de Atendimento | (18) 3199-0747</strong></a>, ou procure outras formas de abertura de chamado nesse portal.
@@ -606,16 +567,16 @@
                 <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">Um time dedicado e unido que mostra em cada projeto o que realmente deve ser feito para que o objetivo do cliente seja atingido. Impressionando com a qualidade e determinação na execução das demandas solicitadas.</p>
                   <p class="fs-0 text-600">- Rannye Rodrigues, CEO of SysDevv</p>
-                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" /> -->
+                  <!-- <img class="w-auto mx-auto" src="./assets/img/logos/google.png" alt="" height="45" /> -->
                 </div>
                 <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">A ConsulTI é um time coeso e comprometido, que demonstra em cada projeto um claro entendimento do que é necessário para alcançar os objetivos dos clientes. Eles impressionam pela qualidade excepcional e pela determinação incansável na execução das demandas solicitadas, garantindo resultados que superam as expectativas.</p>
                   <p class="fs-0 text-600">- Jhonatan Calleri, Developer</p>
-                  <!-- <img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" /> -->
+                  <!-- <img class="w-auto mx-auto" src="./assets/img/logos/netflix.png" alt="" height="30" /> -->
                 </div>
                 <!-- <div class="px-5 px-sm-6">
                   <p class="fs-sm-1 fs-md-2 font-italic text-dark">When I first saw Falcon, I was totally blown away by the care taken in the interface. It felt like something that I'd really want to use and something I could see being a true modern replacement to the current class of Bootstrap themes.</p>
-                  <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="assets/img/logos/paypal.png" alt="" height="45" />
+                  <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="./assets/img/logos/paypal.png" alt="" height="45" />
                 </div> -->
               </div>
             </div>
@@ -633,7 +594,7 @@
       <!-- <section> begin ============================-->
       <section>
 
-        <div class="bg-holder overlay" style="background-image:url(assets/img/generic/4.jpg);background-position: center top;">
+        <div class="bg-holder overlay" style="background-image:url(./assets/img/generic/4.jpg);background-position: center top;">
         </div>
 
 
@@ -677,33 +638,32 @@
 
         <div class="container">
           
-          <div class="row">
+          <div class="row justify-content-between">
             <div class="col-lg-4">
               <h5 class="text-uppercase text-white opacity-85 mb-3">Nosso Propósito</h5>
               <p class="text-600 text-justify">A ConsulTI é uma empresa que nasceu para suprir as demandas das organizações na gestão eficiente do parque tecnológico por profissionais de qualidade e com um custo acessível. Com um corpo técnico altamente capacitado e com mais de 12 anos de experiência na gestão de tecnologia e vivência em TI em diversas empresas de pequeno, médio e grande porte do Brasil, nos mais diversos seguimentos.</p>
               <div class="icon-group mt-4">
-                <a class="icon-item text-secondary" href="https://www.facebook.com/souconsulti/"><span class="fab fa-facebook-f"></span></a>
-                <a class="icon-item text-secondary" href="https://www.instagram.com/souconsulti/"><span class="fab fa-instagram"></span></a>
-                <a class="icon-item text-secondary" href="https://br.linkedin.com/company/souconsulti"><span class="fab fa-linkedin-in"></span></a>
-                <a class="icon-item text-secondary" href="https://wa.me/551831990747"><span class="fab fa-whatsapp"></span></a>
+                <a class="icon-item text-secondary" href="https://www.facebook.com/souconsulti/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                <a class="icon-item text-secondary" href="https://www.instagram.com/souconsulti/" target="_blank"><span class="fab fa-instagram"></span></a>
+                <a class="icon-item text-secondary" href="https://br.linkedin.com/company/souconsulti" target="_blank"><span class="fab fa-linkedin-in"></span></a>
+                <a class="icon-item text-secondary" href="https://wa.me/551831990747" target="_blank"><span class="fab fa-whatsapp"></span></a>
                 <!-- <a class="icon-item" href="#!"><span class="fab fa-medium-m"></span></a> -->
               </div>
             </div>
             <div class="col pl-lg-6 pl-xl-8">
               <div class="row mt-5 mt-lg-0">
                 <div class="col-6 col-md-3">
-                  <h5 class="text-uppercase text-white opacity-85 mb-3">Company</h5>
+                  <h5 class="text-uppercase text-white opacity-85 mb-3">Empresa</h5>
                   <ul class="list-unstyled">
-                    <li class="mb-1"><a class="text-600" href="#!">About</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Contact</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Careers</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Blog</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Terms</a></li>
+                    <li class="mb-1"><a class="text-600" href="#!">Sobre</a></li>
+                    <li class="mb-1"><a class="text-600" href="#!" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
+                    <li class="mb-1"><a class="text-600" href="https://br.linkedin.com/company/souconsulti" target="_blank">Trabalhe Conosco</a></li>
+                    <li class="mb-1"><a class="text-600" href="noticias/consulti_news.html">News</a></li>
+                    <li class="mb-1"><a class="text-600" href="#!">Termos</a></li>
                     <li class="mb-1"><a class="text-600" href="politica_privacidade.html" target="_blank">Política de Privacidade</a></li>
-                    <li><a class="text-600" href="#!">Imprint</a></li>
                   </ul>
                 </div>
-                <div class="col-6 col-md-3">
+                <!-- <div class="col-6 col-md-3">
                   <h5 class="text-uppercase text-white opacity-85 mb-3">Product</h5>
                   <ul class="list-unstyled">
                     <li class="mb-1"><a class="text-600" href="#!">Features</a></li>
@@ -715,13 +675,13 @@
                     <li class="mb-1"><a class="text-600" href="#!">Agencies</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Enterprise</a></li>
                   </ul>
-                </div>
+                </div> -->
                 <div class="col mt-5 mt-md-0">
-                  <h5 class="text-uppercase text-white opacity-85 mb-3">From the Blog</h5>
+                  <h5 class="text-uppercase text-white opacity-85 mb-3">ConsulTI News</h5>
                   <ul class="list-unstyled">
                     <li>
-                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!">New components are ready to publish!</a></h5>
-                      <p class="text-600 opacity-50">Jan 15 &bull; 8min read </p>
+                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
+                      <p class="text-600 opacity-50">Out 13 &bull; 4min leitura </p>
                     </li>
                     <li>
                       <h5 class="fs-0 mb-0"><a class="text-600" href="#!">January '19 New Features Newsletter</a></h5>
@@ -786,24 +746,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/lib/@fortawesome/all.min.js"></script>
-    <script src="assets/lib/stickyfilljs/stickyfill.min.js"></script>
-    <script src="assets/lib/sticky-kit/sticky-kit.min.js"></script>
-    <script src="assets/lib/is_js/is.min.js"></script>
-    <script src="assets/lib/lodash/lodash.min.js"></script>
-    <script src="assets/lib/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
-    <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
-    <script src="assets/lib/typed.js/typed.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdn.rawgit.com/bfintal/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-
-
-    <script src="assets/js/theme.js"></script>
+    <?php require('assets/includes/footer.php')?>
     <script>
       n = new Date();
       y = n.getFullYear();
