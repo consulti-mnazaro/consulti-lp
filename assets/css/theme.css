@@ -23275,9 +23275,15 @@ a.text-white:hover, a.text-white:focus {
   opacity: 0;
 }
 
+.landing-cta-img {
+  width: 80%;
+  height: auto;
+}
+
+
 @media (max-width: 575.98px) {
   .landing-cta-img {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <?php require('assets/includes/header.php')?>
+  <?php require('../assets/includes/header.php')?>
 
   <body id="body">
     
@@ -504,7 +504,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <?php require('assets/includes/footer.php')?>
+    <?php require('../assets/includes/footer.php')?>
     <script>
       n = new Date();
       y = n.getFullYear();

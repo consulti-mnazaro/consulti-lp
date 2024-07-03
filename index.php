@@ -261,7 +261,7 @@
           <div class="row justify-content-center align-items-center pt-8 pt-lg-10 pb-lg-9 pb-xl-0">
             <div class="col-md-11 col-lg-8 col-xl-4 pb-7 pb-xl-9 text-center text-xl-left">
               <a class="btn btn-outline-info mb-4 fs--1 border-2x rounded-pill" href="#!" data-toggle="modal" data-target="#exampleModal"><span class="mr-2" role="img" aria-label="Hands">🤝</span>Seja um cliente</a>
-              <h1 class="text-white font-weight-light">A ConsulTI oferece soluções em <span class="typed-text font-weight-bold" data-typed-text='["suporte","software","redes"]'></span><br /></h1>
+              <h1 class="text-white font-weight-light"></h1>
               <p class="lead text-white opacity-75">Entre em contato conosco e seja mais um cliente parceiro</p>
             </div>                                  
             <div class="col-xl-7 offset-xl-1 align-self-end"><a class="img-landing-banner" href="index.html"><img class="img-fluid" src="./assets/img/generic/baner.png" alt="" /></a></div>
@@ -282,18 +282,18 @@
 
         <div class="container logo-carousel-container">
           <div class="row justify-content-center align-items-center logo-carousel">
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/6.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="45" src="./assets/img/logos/b&amp;w/11.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/2.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/4.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="./assets/img/logos/b&amp;w/1.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/10.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/12.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/3.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="40" src="./assets/img/logos/b&amp;w/5.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/7.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="30" src="./assets/img/logos/b&amp;w/8.png" alt="" /></div>
-            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" height="35" src="./assets/img/logos/b&amp;w/9.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/6.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/11.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/2.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/4.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/1.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/10.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/12.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/3.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/5.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/7.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/8.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-card"><img class="landing-cta-img" src="./assets/img/logos/b&amp;w/9.png" alt="" /></div>
           </div>
         </div>
 
@@ -658,9 +658,8 @@
                     <li class="mb-1"><a class="text-600" href="#!">Sobre</a></li>
                     <li class="mb-1"><a class="text-600" href="#!" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
                     <li class="mb-1"><a class="text-600" href="https://br.linkedin.com/company/souconsulti" target="_blank">Trabalhe Conosco</a></li>
-                    <li class="mb-1"><a class="text-600" href="noticias/consulti_news.html">News</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Termos</a></li>
-                    <li class="mb-1"><a class="text-600" href="politica_privacidade.html" target="_blank">Política de Privacidade</a></li>
+                    <li class="mb-1"><a class="text-600" href="politica_privacidade.php" target="_blank">Política de Privacidade</a></li>
                   </ul>
                 </div>
                 <!-- <div class="col-6 col-md-3">

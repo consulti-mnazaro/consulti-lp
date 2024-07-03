@@ -5268,18 +5268,35 @@ utils.$document.ready(function () {
  */
 
 utils.$document.ready(function () {
-  var typedText = $('.typed-text');
-
-  if (typedText.length) {
-    typedText.each(function (index, value) {
-      return new Typed(value, {
-        strings: $(value).data('typed-text'),
-        typeSpeed: 100,
-        loop: true,
-        backDelay: 1500
+  
+  var originalText = 'A ConsulTI oferece soluções em ';
+  var $h1 = $('.text-white.font-weight-light');
+  function updateText() {
+    if (window.innerWidth < 476) {
+      $h1.html(originalText + '<br/><span class="typed-text font-weight-bold" data-typed-text=\'["suporte","software","redes"]\'></span><br />');
+    } else {
+      $h1.html(originalText + '<span class="typed-text font-weight-bold" data-typed-text=\'["suporte","software","redes"]\'></span><br />');
+    }
+  
+    var typedText = $('.typed-text');
+    if (typedText.length) {
+      typedText.each(function (index, value) {
+        return new Typed(value, {
+          strings: $(value).data('typed-text'),
+          typeSpeed: 100,
+          loop: true,
+          backDelay: 1500
+        });
       });
-    });
+    }
   }
+
+  updateText();
+
+  $(window).resize(function () {
+    updateText();
+  })
+
 });
 /*-----------------------------------------------
 |   YTPlayer
@@ -5312,7 +5329,7 @@ utils.$document.ready(function () {
 
 utils.$document.ready(function (){
   $('.logo-carousel').slick({
-    slidesToShow: 8,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
@@ -5326,14 +5343,14 @@ utils.$document.ready(function (){
       {
         breakpoint: 1440,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 5,
           slidesToScroll: 1
         }
       },
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1
         }
       },
@@ -5347,6 +5364,7 @@ utils.$document.ready(function (){
       {
         breakpoint: 480,
         settings: {
+          speed: 3000,
           slidesToShow: 2,
           slidesToScroll: 1
         }
@@ -5406,3 +5424,4 @@ utils.$document.ready(function () {
     offset: '75%' // Ajusta conforme necessário
   });
 })
+
