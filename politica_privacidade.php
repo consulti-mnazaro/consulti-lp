@@ -13,12 +13,12 @@
         <div class="container justify-content-center">
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarStandard">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
               <img src="assets/img/icons/consulti_logoColored.svg" height="50" style="position: absolute; opacity: 0;" id="logoCor"/>
               <img src="assets/img/icons/consulti_logoWhite.svg" height="50"/>
             </a>
             <ul class="navbar-nav">
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownHome" href="index.html">Home</a>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownHome" href="index.php">Home</a>
                 <!-- <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownHome">
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
                 </div> -->
@@ -90,7 +90,7 @@
       <!-- <section> begin ============================-->
       <section class="py-0 overflow-hidden shadow-sm" id="banner">
 
-        <div class="bg-holder overlay" style="background-image:url(../assets/img/generic/11.jpg);background-position: center bottom;">
+        <div class="bg-holder overlay" style="background-image:url(./assets/img/generic/11.jpg);background-position: center bottom;">
         </div>
         <!--/.bg-holder-->
 
@@ -466,8 +466,35 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
+        <!-- <div class="bg-holder overlay" style="background-image:url(./assets/img/generic/4.jpg);background-position: center top;">
+        </div>
 
 
+        <div class="container">
+          <div class="row justify-content-center text-center" id="counterS">
+
+            <div class="col-lg-3">
+              <p data-counter="122" class="fs-3 fs-sm-6 mb-0 text-white"><span>122</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Clientes ativos</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p data-counter="80" class="fs-3 fs-sm-6 mb-0 text-white"><span>80</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Backup em Nuvem (TB)</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p data-counter="32" class="fs-3 fs-sm-6 mb-0 text-white"><span>32</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Cidades de atuação</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p data-counter="89500" class="fs-3 fs-sm-6 mb-0 text-white"><span>89500</span></p>
+              <p class="fs-1 fs-sm-1 text-white">Chamados Atendidos</p>
+            </div>
+
+          </div>
+        </div> -->
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
