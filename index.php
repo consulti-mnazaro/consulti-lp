@@ -23,6 +23,8 @@
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
                 </div>
               </li> -->
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre</a>
+              </li>
               <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-fancyscroll="data-fancyscroll">Serviços</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownPages">
                   <div class="card navbar-card-pages shadow-none">
@@ -42,12 +44,6 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownDocumentation">
-                  <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../documentation/getting-started.html">Getting started</a><a class="dropdown-item" href="../documentation/file-structure.html">File structure</a><a class="dropdown-item" href="../documentation/customization.html">Customization</a><a class="dropdown-item" href="../documentation/dark-mode.html">Dark mode</a><a class="dropdown-item" href="../documentation/fluid-layout.html">Fluid layout</a><a class="dropdown-item" href="../documentation/gulp.html">Gulp</a><a class="dropdown-item" href="../documentation/RTL.html">RTL</a><a class="dropdown-item" href="../documentation/plugins.html">Plugins</a>
                   </div>
                 </div>
               </li>
@@ -278,7 +274,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-3 bg-light shadow-sm">
+      <section class="py-1 bg-light shadow-sm">
 
         <div class="container logo-carousel-container">
           <div class="row justify-content-center align-items-center logo-carousel">
@@ -319,7 +315,7 @@
 
           <!-- Administração de Servidores -->
           <div class="row align-items-center justify-content-center mt-8" id="admserver">
-            <div class="col-md col-lg-7 col-xl-4 pl-lg-6">
+            <div class="col-md col-lg-5 col-xl-4 pl-lg-6">
               <img class="img-fluid px-6 px-md-0" src="./assets/img/illustrations/serverimg.svg" style="width: 20rem;" alt="Adminsitração de Servidores" />
             </div>
             <div class="col-md col-lg-5 col-xl-4 mt-4 mt-md-0">
@@ -587,8 +583,53 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-light text-center py-6">
 
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="fs-2 fs-sm-4 fs-md-5">ConsulTI News</h1>
+              <!-- <p class="lead">Recursos que você terá imediatamente com ConsulTI.</p> -->
+            </div>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div class="owl-carousel owl-theme owl-theme-dark" data-options='{"nav":true,"autoplay":true,"autoplayHoverPause":true,"loop":true,"dots":false,"items":1, "center":true}'>
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-4"><img class="img-fluid img-thumbnail" src="./assets/img/generic/1.jpg" alt=""></img></div>
+                  <div class="col-3">
+                    <h5 class="fs-sm-1 fs-md-2 mb-0 text-left"><a class="text-dark" href="#!" data-toggle="modal" data-target="#noticias">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
+                    <p class="fs-0 text-600 text-left">Outubro, 13 | 4min</p>
+                  </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-4"><img class="img-fluid img-thumbnail"src="./assets/img/generic/2.jpg" alt=""></img></div>
+                  <div class="col-3">
+                    <h5 class="fs-sm-1 fs-md-2 mb-0 text-left"><a class="text-dark" href="#!">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
+                    <p class="fs-0 text-600 text-left">Outubro, 13 | 4min</p>
+                  </div>
+                </div>
+                <!-- <img class="w-auto mx-auto" src="./assets/img/logos/google.png" alt="" height="45" /> -->  
+            </div>
+          </div>
+          <div class="row mt-6">
+            <!-- <div class="col-lg-4 mt-6 mt-lg-0">
+              <div class="card card-span h-100">
+                <div class="card-span-img"><span class="fab fa-gulp fs-6 text-danger"></span></div>
+                <div class="card-body pt-6 pb-4">
+                  <h5 class="mb-2">Gulp based workflow</h5>
+                  <p>All the painful or time-consuming tasks in your development workflow such as compiling the SCSS or transpiring the JS are automated.</p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        
 
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
@@ -599,6 +640,11 @@
 
 
         <div class="container">
+          <div class="row justify-content-center text-justify text-white">
+            <h2>Sobre a ConsulTI</h2>
+            <p>Localizada na cidade de Presidente Prudente/SP, a ConsulTI atende a toda região. Nosso foco é o atendimento a empresas de pequeno, médio e grande porte oferecendo serviços que vão desde a gestão do parque tecnológico (redes, servidores, computadores, roteadores), até a gestão de sistemas ERP, contribuindo para o desenvolvimento da organização. Temos como meta a administração e otimização dos recursos tecnológicos da empresa com foco na redução de custos. </p>
+            <p>A ConsulTI nasceu com o objetivo de atender a demanda de uma gestão eficaz e segura dos ativos tecnológicos das empresas, oferecendo eficiência, qualidade e custo. Em tempos difíceis da economia, as empresas se veem cada vez mais preocupadas com seus custos, mas necessitam manter um alto nível de qualidade em seus serviços e produtos. Pensando nisso, nossa proposta é fornecer uma gestão eficaz e totalmente acessível para as empresas. Promovendo e contruibuindo para o desenvolvimento dos negócios.</p>
+          </div>
           <div class="row justify-content-center text-center" id="counterS">
 
             <div class="col-lg-3">
@@ -638,7 +684,7 @@
 
         <div class="container">
           
-          <div class="row justify-content-between">
+          <div class="row justify-content-between footer-content">
             <div class="col-lg-4">
               <h5 class="text-uppercase text-white opacity-85 mb-3">Nosso Propósito</h5>
               <p class="text-600 text-justify">A ConsulTI é uma empresa que nasceu para suprir as demandas das organizações na gestão eficiente do parque tecnológico por profissionais de qualidade e com um custo acessível. Com um corpo técnico altamente capacitado e com mais de 12 anos de experiência na gestão de tecnologia e vivência em TI em diversas empresas de pequeno, médio e grande porte do Brasil, nos mais diversos seguimentos.</p>
@@ -675,11 +721,11 @@
                     <li class="mb-1"><a class="text-600" href="#!">Enterprise</a></li>
                   </ul>
                 </div> -->
-                <div class="col mt-5 mt-md-0">
+                <div class="col-6 col-md3">
                   <h5 class="text-uppercase text-white opacity-85 mb-3">ConsulTI News</h5>
                   <ul class="list-unstyled">
                     <li>
-                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
+                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!" data-toggle="modal" data-target="#noticias">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
                       <p class="text-600 opacity-50">Out 13 &bull; 4min leitura </p>
                     </li>
                     <li>
@@ -733,6 +779,47 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
+      <!-- ============================================-->
+       <!-- Modal Noticias -->
+      <div class="modal fade" id="noticias" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row text-center justify-content-center align-items-center mb-2">
+                <div class="col-auto">
+                  <img class="img-fluid img-thumbnail" src="./assets/img/generic/1.jpg" alt=""></img>
+                </div>
+                <!-- <div class="col-auto">
+                  <p class="fs--1 text-600 mb-0">Have an account? <a href="../authentication/basic/login.html">Login</a></p>
+                </div> -->
+              </div>
+              <div class="row text-justify">
+                <div class="col-auto">
+                  <h2>Inteligência Artificial será essencial para garantir a segurança da informação</h2>
+                  <p>O uso da Inteligência Artificial será onipresente quando a questão envolver  segurança da informação. Essa é a opinião do indiano  Rajesh Ganesan, presidente da ManageEngine, que esteve no Brasil pela primeira vez para participar o evento UserConf Brasil, que serviu também para comemorar 20 anos de fundação da empresa de  gerenciamento de TI, que faz parte do grupo Zoho Corporation, com mais de 280 mil clientes ao redor do mundo e que faz parte da lista da Fortune 100.</p>
+                  <p>A ManageEngine cresceu de maneira significativa na América Latina, especialmente no Brasil, onde atende mais de mil clientes. Depois de registrar um aumento de receitas de 43% em 2021, o crescimento da companhia superou 60% no primeiro semestre de 2022, em comparação com o mesmo período do ano anterior.</p>
+                  <p>Ele confirmou a abertura de uma filial da ManageEngine em São Paulo, que junto com as unidades da Colômbia e México reforça o investimento da empresa indiana no mercado latino-americano e acelerar funções técnicas e a área de marketing para apoiar os planos de expansão da companhia.</p>
+                  <p>Ganesan ressaltou que IA "atingiremos um nível de gerenciamento de ponta a ponta alavancado com chatbots alimentados por IA, com entendimento de linguagem natural (NLU) e que podem resolver problemas, desde algo simples como uma senha redefinida até o fornecimento de acesso a uma aplicação em nuvem".</p>
+                  <p>"IA servirá inclusive pare a empresa provisionar o data center que irá usar, os ferramentais de monitoramento,  a gestão de identidade, a nuvem. Enfim tudo que envolver a segurança de informação", ressalta.</p>
+                  <p><strong>Trabalho híbrido</strong></p>
+                  <p>Na UserConf Brasil o executivo também apresentou a Pesquisa de Prontidão Digital da ManageEngine, que mostra que 91% das organizações acreditam que seus líderes de TI serão os responsáveis por conduzir a empresa para o futuro.</p>
+                  <p>"As circunstâncias dos últimos dois anos levaram a duas tendências significativas: empresas têm optado pela digitalização em primeiro lugar para todas as necessidades e os funcionários priorizam o trabalho remoto sempre que possível. As empresas que entendem esses movimentos e implementam tecnologias para se alinharem a eles têm prosperado. Na ManageEngine, nos esforçamos continuamente para ajudar os clientes em suas jornadas, por meio de uma plataforma que garante que eles obtenham o melhor retorno de seus investimentos em TI", ressalta Ganesan.</p>
+                </div>
+              </div>
+              <div class="w-100 position-relative mt-4">
+                <hr class="text-300" />
+                <div class="position-absolute absolute-centered t-0 px-3 bg-white text-sans-serif fs--1 text-500 text-nowrap">ConsulTI | NEWS</div>
+              </div>
+              <div class="form-group mb-0">
+                <div class="row no-gutters">
+                  <!-- <div class="col-sm-6 pr-sm-1"><a class="btn btn-outline-success btn-sm btn-block mt-2" href="https://wa.me/551831990747" target="_blank"><span class="fab fa-whatsapp mr-2" data-fa-transform="grow-8"></span> Whatsapp</a></div>
+                  <div class="col-sm-6 pl-sm-1"><a class="btn btn-outline-facebook btn-sm btn-block mt-2" href="https://www.facebook.com/souconsulti/" target="_blank"><span class="fab fa-facebook-square mr-2" data-fa-transform="grow-8"></span> facebook</a></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </main>
     <!-- ===============================================-->
