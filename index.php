@@ -22,9 +22,7 @@
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownHome">
                   <div class="bg-white rounded-soft py-2"><a class="dropdown-item" href="../index.html">Dashboard</a><a class="dropdown-item" href="../home/dashboard-alt.html">Dashboard alt</a><a class="dropdown-item" href="../home/feed.html">Feed</a><a class="dropdown-item" href="../home/landing.html">Landing</a></div>
                 </div>
-              </li> -->
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre</a>
-              </li>
+              </li> -->              
               <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-fancyscroll="data-fancyscroll">Serviços</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownPages">
                   <div class="card navbar-card-pages shadow-none">
@@ -47,71 +45,11 @@
                   </div>
                 </div>
               </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownComponents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
-                <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownComponents">
-                  <div class="card shadow-none navbar-card-components">
-                    <div class="card-body scrollbar perfect-scrollbar max-h-dropdown">
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/accordion.html">Accordion</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/alerts.html">Alerts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/avatar.html">Avatar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/background.html">Background</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/badges.html">Badges</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/breadcrumb.html">Breadcrumb</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/bulk-select.html">Bulk select</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/buttons.html">Buttons</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/cards.html">Cards</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/carousel.html">Carousel</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/collapse.html">Collapse</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/countup.html">Countup</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/dropdowns.html">Dropdowns</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/fancyscroll.html">Fancyscroll</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/fancytab.html">Fancytab</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/forms.html">Forms</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/hoverbox.html">Hoverbox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/list-group.html">List group</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/modals.html">Modals</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/media-object.html">Media object</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navs.html">Navs</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/default.html">Navbar default</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/vertical.html">Navbar vertical<span class="badge badge-pill ml-2 fs--2 badge-soft-success">Updated</span></a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/navbar/top.html">Navbar top</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/cookie-notice.html">Cookie notice</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/page-headers.html">Page headers</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/pagination.html">Pagination</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../components/popovers.html">Popovers</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/progress.html">Progress</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/scrollspy.html">Scrollspy</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/sidepanel.html">Sidepanel</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/spinners.html">Spinners</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tables.html">Tables</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tabs.html">Tabs</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/toasts.html">Toasts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../components/tooltips.html">Tooltips</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nav-link py-1 text-900 font-weight-bold mt-3">Plugins</div>
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/bootstrap-wizard.html">Bootstrap wizard</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/charts/chart-js.html">Chart js</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/charts/echarts.html">Echarts</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/countdown.html">Countdown</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/data-table.html">Data table</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/date-picker.html">Date picker</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/draggable.html">Draggable</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/dropzone.html">Dropzone</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/emojionearea.html">Emojionearea</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/fancybox.html">Fancybox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/fontawesome.html">Fontawesome</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/inline-player.html">Inline player</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/lightbox.html">Lightbox</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/lottie.html">Lottie</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/map/google-map.html">Google map</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/map/leaflet-map.html">Leaflet map</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/toastr.html">Toastr</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/owl-carousel.html">Owl carousel</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/perfect-scrollbar.html">Perfect scrollbar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/progressbar.html">Progressbar</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/raty.html">Raty</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/select2.html">Select2</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/tinymce.html">Tinymce</a><a class="nav-link py-1 text-700 font-weight-medium" href="../plugins/typed-text.html">Typed text</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nav-link py-1 text-900 font-weight-bold mt-3">Utilities</div>
-                      <div class="row">
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/borders.html">Borders</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/clearfix.html">Clearfix</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/close-icon.html">Close icon</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/colors.html">Colors</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/display.html">Display</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/embed.html">Embed</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/figures.html">Figures</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/flex.html">Flex</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/grid.html">Grid</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/sizing.html">Sizing</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/spacing.html">Spacing</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/stretched-link.html">Stretched link</a>
-                          </div>
-                        </div>
-                        <div class="col-6 col-xl-3">
-                          <div class="nav flex-column"><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/typography.html">Typography</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/vertical-align.html">Vertical align</a><a class="nav-link py-1 text-700 font-weight-medium" href="../utilities/visibility.html">Visibility</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre</a>
               </li>
-              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownAuthentication" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Authentication</a>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownComponents" href="#news" role="button" data-fancyscroll="data-fancyscroll">News</a></li>
+              <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link" id="navbarDropdownComponents" href="#!" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
+              <!-- <li class="nav-item dropdown dropdown-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownAuthentication" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Authentication</a>
                 <div class="dropdown-menu dropdown-menu-card" aria-labelledby="navbarDropdownAuthentication">
                   <div class="card shadow-none navbar-card-auth">
                     <div class="card-body scrollbar perfect-scrollbar max-h-dropdown"><img class="position-absolute b-0 r-0" src="./assets/img/illustrations/authentication-corner.png" width="130" alt="" />
@@ -140,7 +78,7 @@
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> -->
             </ul>
             
             <!-- <ul class="navbar-nav">
@@ -590,7 +528,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h1 class="fs-2 fs-sm-4 fs-md-5">ConsulTI News</h1>
+              <h1 class="fs-2 fs-sm-4 fs-md-5" id="news">ConsulTI News</h1>
               <!-- <p class="lead">Recursos que você terá imediatamente com ConsulTI.</p> -->
             </div>
           </div>
@@ -640,11 +578,6 @@
 
 
         <div class="container">
-          <div class="row justify-content-center text-justify text-white">
-            <h2>Sobre a ConsulTI</h2>
-            <p>Localizada na cidade de Presidente Prudente/SP, a ConsulTI atende a toda região. Nosso foco é o atendimento a empresas de pequeno, médio e grande porte oferecendo serviços que vão desde a gestão do parque tecnológico (redes, servidores, computadores, roteadores), até a gestão de sistemas ERP, contribuindo para o desenvolvimento da organização. Temos como meta a administração e otimização dos recursos tecnológicos da empresa com foco na redução de custos. </p>
-            <p>A ConsulTI nasceu com o objetivo de atender a demanda de uma gestão eficaz e segura dos ativos tecnológicos das empresas, oferecendo eficiência, qualidade e custo. Em tempos difíceis da economia, as empresas se veem cada vez mais preocupadas com seus custos, mas necessitam manter um alto nível de qualidade em seus serviços e produtos. Pensando nisso, nossa proposta é fornecer uma gestão eficaz e totalmente acessível para as empresas. Promovendo e contruibuindo para o desenvolvimento dos negócios.</p>
-          </div>
           <div class="row justify-content-center text-center" id="counterS">
 
             <div class="col-lg-3">
@@ -701,7 +634,7 @@
                 <div class="col-6 col-md-3">
                   <h5 class="text-uppercase text-white opacity-85 mb-3">Empresa</h5>
                   <ul class="list-unstyled">
-                    <li class="mb-1"><a class="text-600" href="#!">Sobre</a></li>
+                    <li class="mb-1"><a class="text-600" href="sobre.php">Sobre</a></li>
                     <li class="mb-1"><a class="text-600" href="#!" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
                     <li class="mb-1"><a class="text-600" href="https://br.linkedin.com/company/souconsulti" target="_blank">Trabalhe Conosco</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Termos</a></li>
