@@ -396,33 +396,30 @@
 
         <div class="container">
           
-          <div class="row">
+          <div class="row justify-content-start footer-content">
             <div class="col-lg-4">
               <h5 class="text-uppercase text-white opacity-85 mb-3">Nosso Propósito</h5>
               <p class="text-600 text-justify">A ConsulTI é uma empresa que nasceu para suprir as demandas das organizações na gestão eficiente do parque tecnológico por profissionais de qualidade e com um custo acessível. Com um corpo técnico altamente capacitado e com mais de 12 anos de experiência na gestão de tecnologia e vivência em TI em diversas empresas de pequeno, médio e grande porte do Brasil, nos mais diversos seguimentos.</p>
               <div class="icon-group mt-4">
-                <a class="icon-item text-secondary" href="https://www.facebook.com/souconsulti/"><span class="fab fa-facebook-f"></span></a>
-                <a class="icon-item text-secondary" href="https://www.instagram.com/souconsulti/"><span class="fab fa-instagram"></span></a>
-                <a class="icon-item text-secondary" href="https://br.linkedin.com/company/souconsulti"><span class="fab fa-linkedin-in"></span></a>
-                <a class="icon-item text-secondary" href="https://wa.me/551831990747"><span class="fab fa-whatsapp"></span></a>
+                <a class="icon-item text-secondary" href="https://www.facebook.com/souconsulti/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                <a class="icon-item text-secondary" href="https://www.instagram.com/souconsulti/" target="_blank"><span class="fab fa-instagram"></span></a>
+                <a class="icon-item text-secondary" href="https://br.linkedin.com/company/souconsulti" target="_blank"><span class="fab fa-linkedin-in"></span></a>
+                <a class="icon-item text-secondary" href="https://wa.me/551831990747" target="_blank"><span class="fab fa-whatsapp"></span></a>
                 <!-- <a class="icon-item" href="#!"><span class="fab fa-medium-m"></span></a> -->
               </div>
             </div>
-            <div class="col pl-lg-6 pl-xl-8">
-              <div class="row mt-5 mt-lg-0">
-                <div class="col-6 col-md-3">
-                  <h5 class="text-uppercase text-white opacity-85 mb-3">Company</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-1"><a class="text-600" href="#!">About</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Contact</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Careers</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Blog</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Terms</a></li>
-                    <li class="mb-1"><a class="text-600" href="#!">Privacy</a></li>
-                    <li><a class="text-600" href="#!">Imprint</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-md-3">
+            <div class="col-2 pl-lg-6 pl-xl-8">
+              <div class="mt-5 mt-lg-0">
+                <h5 class="text-uppercase text-white opacity-85 mb-3">Empresa</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-1"><a class="text-600" href="sobre.php">Sobre</a></li>
+                  <li class="mb-1"><a class="text-600" href="#!" data-toggle="modal" data-target="#exampleModal">Contato</a></li>
+                  <li class="mb-1"><a class="text-600" href="https://br.linkedin.com/company/souconsulti" target="_blank">Trabalhe Conosco</a></li>
+                  <!-- <li class="mb-1"><a class="text-600" href="#!">Termos</a></li> -->
+                  <!-- <li class="mb-1"><a class="text-600" href="politica_privacidade.php" target="_blank">Política de Privacidade</a></li> -->
+                </ul>
+              </div>
+                <!-- <div class="col-6 col-md-3">
                   <h5 class="text-uppercase text-white opacity-85 mb-3">Product</h5>
                   <ul class="list-unstyled">
                     <li class="mb-1"><a class="text-600" href="#!">Features</a></li>
@@ -434,13 +431,13 @@
                     <li class="mb-1"><a class="text-600" href="#!">Agencies</a></li>
                     <li class="mb-1"><a class="text-600" href="#!">Enterprise</a></li>
                   </ul>
-                </div>
-                <div class="col mt-5 mt-md-0">
-                  <h5 class="text-uppercase text-white opacity-85 mb-3">From the Blog</h5>
+                </div> -->
+                <!-- <div class="col-6 col-md3">
+                  <h5 class="text-uppercase text-white opacity-85 mb-3">ConsulTI News</h5>
                   <ul class="list-unstyled">
                     <li>
-                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!">New components are ready to publish!</a></h5>
-                      <p class="text-600 opacity-50">Jan 15 &bull; 8min read </p>
+                      <h5 class="fs-0 mb-0"><a class="text-600" href="#!" data-toggle="modal" data-target="#noticias">Inteligência Artificial será essencial para garantir a segurança da informação</a></h5>
+                      <p class="text-600 opacity-50">Out 13 &bull; 4min leitura </p>
                     </li>
                     <li>
                       <h5 class="fs-0 mb-0"><a class="text-600" href="#!">January '19 New Features Newsletter</a></h5>
@@ -455,7 +452,7 @@
                       <p class="text-600 opacity-50">Dec 23 &bull; 10min read </p>
                     </li>
                   </ul>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -495,6 +492,54 @@
 
           </div>
         </div> -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-4">
+              <div class="row text-left justify-content-between align-items-center mb-2">
+                <div class="col-auto">
+                  <h5 id="modalLabel">Fale Conosco</h5>
+                </div>
+                <!-- <div class="col-auto">
+                  <p class="fs--1 text-600 mb-0">Have an account? <a href="../authentication/basic/login.html">Login</a></p>
+                </div> -->
+              </div>
+              <form>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Nome" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Contato" />
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="5" placeholder="Mensagem"></textarea>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" id="modal-register-checkbox" />
+                  <label class="custom-control-label" for="modal-register-checkbox">Aceito os <a href="#!">Termos </a>e <a href="politica_privacidade.html">Política de Privacidade</a></label>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-primary btn-block mt-3" type="submit" name="submit">Enviar</button>
+                </div>
+              </form>
+              <div class="w-100 position-relative mt-4">
+                <hr class="text-300" />
+                <div class="position-absolute absolute-centered t-0 px-3 bg-white text-sans-serif fs--1 text-500 text-nowrap">ou entre em contato por</div>
+              </div>
+              <div class="form-group mb-0">
+                <div class="row no-gutters">
+                  <div class="col-sm-6 pr-sm-1"><a class="btn btn-outline-success btn-sm btn-block mt-2" href="https://wa.me/551831990747" target="_blank"><span class="fab fa-whatsapp mr-2" data-fa-transform="grow-8"></span> Whatsapp</a></div>
+                  <div class="col-sm-6 pl-sm-1"><a class="btn btn-outline-facebook btn-sm btn-block mt-2" href="https://www.facebook.com/souconsulti/" target="_blank"><span class="fab fa-facebook-square mr-2" data-fa-transform="grow-8"></span> facebook</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
