@@ -34,4 +34,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <!-- ====================== -->
 
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="assets/lib/leaflet/leaflet.css">
+     <!-- ====================== -->
+
   </head>

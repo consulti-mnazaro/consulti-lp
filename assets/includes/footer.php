@@ -14,5 +14,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="https://cdn.rawgit.com/bfintal/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
+<script src="./assets/lib/leaflet/leaflet.js"></script>
+
 
 <script src="./assets/js/theme.js"></script>
