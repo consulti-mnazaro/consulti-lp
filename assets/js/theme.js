@@ -2320,7 +2320,7 @@ utils.$document.ready(function ($) {
 
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - (($this.data('offset') || 0) + 50)
+          scrollTop: target.offset().top - (($this.data('offset') || 0) + 75)
         }, 400, 'swing', function () {
           var hash = $this.attr('href');
           window.history.pushState ? window.history.pushState(null, null, hash) : window.location.hash = hash;
@@ -5415,7 +5415,7 @@ utils.$document.ready(function () {
   }
 
   // Detecta quando a seção está visível
-  var waypoint = new Waypoint({
+  new Waypoint({
     element: $('#counterS'), // Substitua com o ID da sua seção
     handler: function(direction) {
       initializeCounterUp();
@@ -5443,4 +5443,40 @@ utils.$document.ready(function () {
     centralizarConteudo();
   })
 })
+
+utils.$document.ready(function () {
+  const mapa = L.map('mapas').setView([-22.115307, -51.408046], 7);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    subdomains: 'abcd',
+    minZoom: 2,
+    maxZoom: 19,
+  }).addTo(mapa);
+  const marker = L.marker([-22.115307, -51.408046]).addTo(mapa)
+  marker.bindPopup("<b>Estamos aqui!</b>").openPopup()
+})
+
+utils.$document.ready(function () {
+  const content = $('#logoConsulti')
+  const content_dad = $('.row.justify-content-center.align-items-center.text-justify')
+
+  function trocarImagem() {
+    if(window.innerWidth < 992) {
+      content.attr('src', 'assets/img/generic/logoColorida.png')
+      content.addClass('align-self-center')
+      content_dad.removeClass('flex-row')
+    }
+    else {
+      content.attr('src', 'assets/img/generic/IconeConsultiColored.png')
+      content.addClass('align-self-center')
+      content_dad.addClass('flex-row')
+    }
+  }
+
+  trocarImagem()
+
+  $(window).resize(function () {
+    trocarImagem();
+  })
+})  
 
